@@ -40,7 +40,7 @@ class GoogleScholarScraper:
     
     ## Getting inforamtion of the web page
     def get_paperinfo(self, url):
-        response = requests.get(url,headers=self.headers, proxies=self.proxies) # download the page
+        response = requests.get(url,headers=self.headers) # download the page
         if response.status_code != 200: # check successful response
             print('Status code:', response.status_code)
             raise Exception('Failed to fetch web page ')

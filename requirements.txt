@@ -1,1 +1,2 @@
+pandas
 sentence-transformers
