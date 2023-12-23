@@ -82,6 +82,7 @@ class GoogleScholarScraper:
     
 if __name__ == '__main__':
     scraper = GoogleScholarScraper()
-    demo_topics = ["object detection", "face recognition", "biological vision"]
-    scraper.run(topics=demo_topics, num_paper_per_topic=10, wait=45, output_dir="data/raw_data.csv")
+    demo_topics = ["object detection", "face recognition", "biological vision", "face anti spoofing", "object recognition",
+                   "name entity recognition", "sentiment analysis", "text summarization", "machine translation", "topic modelling"]
+    scraper.run(topics=demo_topics, num_paper_per_topic=20, wait=60, output_dir="data/raw_data.csv")
     print(scraper.df)

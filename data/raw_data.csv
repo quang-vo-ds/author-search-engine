@@ -1,1 +1,31 @@
 paper_title,cite_count,years,publication,authors
+Object detection in 20 years: A survey,1885,2023,ieeexplore.ieee.org,Z Zou
+A trainable system for object detection,1932,2000,Springer,C Papageorgiou
+Object detection with deep learning: A review,4703,2019,ieeexplore.ieee.org,ZQ Zhao
+A general framework for object detection,2409,1998,ieeexplore.ieee.org,CP Papageorgiou
+Object detection,115,2021,Springer,Y Amit
+Relation networks for object detection,1340,2018,openaccess.thecvf.com,H Hu
+A review of object detection based on deep learning,308,2020,Springer,Y Xiao
+Deep neural networks for object detection,1932,2013,proceedings.neurips.cc,C Szegedy
+An empirical study of context in object detection,702,2009,ieeexplore.ieee.org,SK Divvala
+"You only look once: Unified, real-time object detection",42224,2016,cv-foundation.org,J Redmon
+Face recognition: A literature survey,9485,2003,dl.acm.org,W Zhao
+Face recognition: A literature review,563,2016,ijais.org,NH Barnouti
+Face recognition systems: A survey,420,2020,mdpi.com,Y Kortli
+Face recognition using laplacianfaces,4410,2005,ieeexplore.ieee.org,X He
+Understanding face recognition,5349,1986,Library,V Bruce
+[BOOK][B] Handbook of face recognition,3149,2011,Springer,AK Jain
+[PDF][PDF] A survey of face recognition techniques,985,2009,jips-k.org,R Jafri
+Deep face recognition,6095,2015,ora.ox.ac.uk,O Parkhi
+Face recognition methods & applications,287,1403,arxiv.org,DN Parmar
+"Past, present, and future of face recognition: A review",358,2020,mdpi.com,I Adjabi
+[BOOK][B] Seeing: The computational approach to biological vision,162,2010,books.google.com,JP Frisby
+[HTML][HTML] Bio-inspired computer vision: Towards a synergistic approach of artificial and biological vision,106,2016,Elsevier,NVK Medathati
+[HTML][HTML] Deep learning—Using machine learning to study biological vision,57,2018,iovs.arvojournals.org,NJ Majaj
+How biological vision succeeds in the physical world,56,2014,Sciences,D Purves
+Common principles of image acquisition systems and biological vision,75,2002,ieeexplore.ieee.org,BA Wandell
+Deep neural networks: a new framework for modeling biological vision and brain information processing,992,2015,annualreviews.org,N Kriegeskorte
+The detection of intensity changes by computer and biological vision systems,306,1983,Elsevier,EC Hildreth
+[BOOK][B] Statistical decision theory and biological vision,127,2002,cns.nyu.edu,LT Maloney
+A solution of the figure-ground problem for biological vision,62,1993,Elsevier,S Grossberg
+[BOOK][B] An introduction to the biology of vision,148,1996,books.google.com,JT McIlwain
