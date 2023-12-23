@@ -3,27 +3,26 @@ import json
 import gradio as gr
 import numpy as np
 import pandas as pd
+from joblib import load
 
 raw_data_file = "data/raw_data.csv"
-embedding_file = "database_embedder/title_embedding.npy"
+embedding_tree_file = "database_embedder/embeddings_tree.joblib"
 model_dir = "model/"
 
 raw_data = pd.read_csv(raw_data_file)
 model = SentenceTransformer(model_dir)
-title_embedding = np.load(embedding_file)
+tree = load(embedding_tree_file)
 
 def handler(query, topk):
-    query_emb = model.encode(query) ## Encode query
+    query_emb = model.encode(query).reshape(1,-1) ## Encode query
     
     ## Find top similar titles to the query
-    scores = []
-    for i in range(title_embedding.shape[0]):
-        scores.append(util.cos_sim(query_emb, title_embedding[i,:]))
-    top_idx = sorted(range(len(scores)), reverse=True, key=scores.__getitem__)[:topk]
+    _, top_ids = tree.query(query_emb, k=topk)
+    print(top_ids)
 
     ## Calculate total citation for each author of the top relevant papers
     author_rank = {}
-    for i, row in raw_data.iloc[top_idx].iterrows():
+    for i, row in raw_data.iloc[top_ids[0]].iterrows():
         if row["authors"] not in author_rank.keys():
             author_rank[row["authors"]] = int(row["cite_count"])
         else:
@@ -38,14 +37,6 @@ if __name__ == '__main__':
     demo = gr.Interface(
         fn=handler,
         inputs=[gr.Textbox(), gr.Number()],
-        outputs=gr.Textbox(),
+        outputs=gr.Textbox()
     )
     demo.launch(share=True)
-    
-    
-    # payload = {
-    #     "data": "object detection",
-    #     "topk": 10
-    # }
-    # result = lambda_handler(payload)
-    # print(result)

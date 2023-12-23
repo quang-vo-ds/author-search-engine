@@ -1,3 +1,5 @@
 numpy
 pandas
 sentence-transformers
+gradio
+sklearn

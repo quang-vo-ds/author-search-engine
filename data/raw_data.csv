@@ -9,6 +9,26 @@ A review of object detection based on deep learning,308,2020,Springer,Y Xiao
 Deep neural networks for object detection,1932,2013,proceedings.neurips.cc,C Szegedy
 An empirical study of context in object detection,702,2009,ieeexplore.ieee.org,SK Divvala
 "You only look once: Unified, real-time object detection",42224,2016,cv-foundation.org,J Redmon
+Efficientdet: Scalable and efficient object detection,5108,2020,openaccess.thecvf.com,M Tan
+A survey on performance metrics for object-detection algorithms,835,2020,ieeexplore.ieee.org,R Padilla
+Unitbox: An advanced object detection network,1266,24,dl.acm.org,J Yu
+Towards open world object detection,327,2021,openaccess.thecvf.com,KJ Joseph
+Scale-transferrable object detection,399,2018,openaccess.thecvf.com,P Zhou
+[PDF][PDF] Robust real-time object detection,7124,2001,hpl.hp.com,P Viola
+[HTML][HTML] Deep learning for generic object detection: A survey,2656,2020,Springer,L Liu
+Recent advances in deep learning for object detection,746,2020,Elsevier,X Wu
+Interactive object detection,116,2012,ieeexplore.ieee.org,A Yao
+A review of object detection techniques,60,2019,ieeexplore.ieee.org,X Zou
+"Scalable, high-quality object detection",534,2014,arxiv.org,C Szegedy
+A survey of deep learning-based object detection,1158,2019,ieeexplore.ieee.org,L Jiao
+[PDF][PDF] Object detection: an overview,28,2019,pdfs.semanticscholar.org,P Rajeshwari
+Object detection using the statistics of parts,569,2004,Springer,H Schneiderman
+Imbalance problems in object detection: A review,419,2020,ieeexplore.ieee.org,K Oksuz
+A review of object detection based on convolutional neural network,221,2017,ieeexplore.ieee.org,W Zhiqiang
+Multiresolution models for object detection,310,5,Springer,D Park
+Recent progresses on object detection: a brief review,38,2019,Springer,H Zhang
+A comprehensive review of object detection with deep learning,21,2023,Elsevier,R Kaur
+CenterNet++ for object detection,22,2023,ieeexplore.ieee.org,K Duan
 Face recognition: A literature survey,9485,2003,dl.acm.org,W Zhao
 Face recognition: A literature review,563,2016,ijais.org,NH Barnouti
 Face recognition systems: A survey,420,2020,mdpi.com,Y Kortli
@@ -19,6 +39,26 @@ Understanding face recognition,5349,1986,Library,V Bruce
 Deep face recognition,6095,2015,ora.ox.ac.uk,O Parkhi
 Face recognition methods & applications,287,1403,arxiv.org,DN Parmar
 "Past, present, and future of face recognition: A review",358,2020,mdpi.com,I Adjabi
+[PDF][PDF] An introduction to face recognition technology,194,2000,inform.nu,SH Lin
+Three-dimensional face recognition,632,2005,Springer,AM Bronstein
+Face recognition from one example view,598,1995,ieeexplore.ieee.org,D Beymer
+Deep face recognition: A survey,959,2021,Elsevier,M Wang
+[BOOK][B] Quo vadis face recognition?,280,2001,sites.pitt.edu,R Gross
+"Face recognition: Past, present and future (a review)",146,2020,Elsevier,M Taskiran
+"Face recognition: challenges, achievements and future directions",206,2015,Library,M Hassaballah
+The FERET evaluation methodology for face-recognition algorithms,6640,2000,ieeexplore.ieee.org,PJ Phillips
+Overview of the face recognition grand challenge,3024,2005,ieeexplore.ieee.org,PJ Phillips
+Face recognition from long-term observations,414,28,Springer,G Shakhnarovich
+When face recognition fails.,428,1977,psycnet.apa.org,KE Patterson
+[PDF][PDF] Face recognition using eigenfaces,9060,1991,cin.ufpe.br,MA Turk
+Face recognition in subspaces,348,2005,Springer,SZ Li
+Features and their configuration in face recognition,818,1997,Springer,JW Tanaka
+Techniques and challenges of face recognition: A critical review,116,2018,Elsevier,S Singh
+Linear regression for face recognition,1190,2010,ieeexplore.ieee.org,I Naseem
+Face recognition across pose: A review,680,2009,Elsevier,X Zhang
+[PDF][PDF] Image analysis for face recognition,166,2003,matf.bg.ac.rs,X Lu
+[PDF][PDF] A feature based approach to face recognition,582,1992,academia.edu,R Chellappa
+Multiresolution face recognition,243,2005,Elsevier,HK Ekenel
 [BOOK][B] Seeing: The computational approach to biological vision,162,2010,books.google.com,JP Frisby
 [HTML][HTML] Bio-inspired computer vision: Towards a synergistic approach of artificial and biological vision,106,2016,Elsevier,NVK Medathati
 [HTML][HTML] Deep learning—Using machine learning to study biological vision,57,2018,iovs.arvojournals.org,NJ Majaj
@@ -29,3 +69,233 @@ The detection of intensity changes by computer and biological vision systems,306
 [BOOK][B] Statistical decision theory and biological vision,127,2002,cns.nyu.edu,LT Maloney
 A solution of the figure-ground problem for biological vision,62,1993,Elsevier,S Grossberg
 [BOOK][B] An introduction to the biology of vision,148,1996,books.google.com,JT McIlwain
+Fabric defect detection based on biological vision modeling,48,2018,ieeexplore.ieee.org,C Li
+[HTML][HTML] Recurrent neural networks can explain flexible trading of speed and accuracy in biological vision,82,2020,journals.plos.org,CJ Spoerer
+A biological vision inspired framework for image enhancement in poor visibility conditions,52,2019,ieeexplore.ieee.org,KF Yang
+Nonlinear mechanisms and higher-order statistics in biological vision and electronic image processing: review and perspectives,41,2001,spiedigitallibrary.org,C Zetzsche
+On the role of object-specific features for real world object recognition in biological vision,88,2002,Springer,T Serre
+[HTML][HTML] Chemistry and biology of vision,334,2012,ASBMB,K Palczewski
+Approaches of artificial intelligence in biomedical image processing: A leading tool between computer vision & biological vision,33,2016,ieeexplore.ieee.org,S Shukla
+"A new image representation algorithm inspired by image submodality models, redundancy reduction, and learning in biological vision",22,2005,ieeexplore.ieee.org,N Balakrishnan
+An Approach for Target Detection and Extraction Based on Biological Vision.,11,2011,search.ebscohost.com,H Wang
+"[BOOK][B] Pattern formation in biology, vision and dynamics",38,2000,books.google.com,A Carbone
+Bio-inspired vision,26,2012,iopscience.iop.org,C Posch
+Spike-based image processing: Can we reproduce biological vision in hardware?,18,2012,Springer,SJ Thorpe
+Polarization vision and its role in biological signaling,254,2003,academic.oup.com,TW Cronin
+Computer vision imaging based on artificial intelligence,43,2018,ieeexplore.ieee.org,X Li
+Parallel integration of vision modules,248,1988,science.org,T Poggio
+[BOOK][B] Biologically inspired computer vision: fundamentals and applications,40,2015,books.google.com,J Herault
+Velocity likelihoods in biological and machine vision,84,2002,books.google.com,Y Weiss
+"Given time: Biology, nature and photographic vision",20,2009,journals.sagepub.com,S Garlick
+The knowledge used in vision and where it comes from,110,1997,royalsocietypublishing.org,HB Barlow
+Vision by man and machine,102,1984,JSTOR,T Poggio
+"Face anti-spoofing: Model matters, so does data",225,2019,openaccess.thecvf.com,X Yang
+Learning deep models for face anti-spoofing: Binary or auxiliary supervision,606,2018,openaccess.thecvf.com,Y Liu
+Can face anti-spoofing countermeasures work in a real world scenario?,330,2013,ieeexplore.ieee.org,T de
+Learn convolutional neural network for face anti-spoofing,476,1408,arxiv.org,J Yang
+Context based face anti-spoofing,332,2013,ieeexplore.ieee.org,J Komulainen
+Face anti-spoofing with human material perception,135,23,Springer,Z Yu
+Face anti-spoofing methods,37,2015,JSTOR,S Parveen
+Revisiting pixel-wise supervision for face anti-spoofing,79,2021,ieeexplore.ieee.org,Z Yu
+Face anti-spoofing based on color texture analysis,437,2015,ieeexplore.ieee.org,Z Boulkenafet
+On the effectiveness of local binary patterns in face anti-spoofing,1042,2012,ieeexplore.ieee.org,I Chingovska
+An original face anti-spoofing approach using partial convolutional neural network,288,2016,ieeexplore.ieee.org,L Li
+Cross‐ethnicity face anti‐spoofing recognition challenge: A review,53,2021,Library,A Liu
+Deep learning for face anti-spoofing: A survey,112,2022,ieeexplore.ieee.org,Z Yu
+Face anti-spoofing using patch and depth-based CNNs,450,2017,ieeexplore.ieee.org,Y Atoum
+Generalized face anti-spoofing by detecting pulse from face videos,193,2016,ieeexplore.ieee.org,X Li
+Meta-teacher for face anti-spoofing,61,2021,ieeexplore.ieee.org,Y Qin
+Deep spatial gradient and temporal depth learning for face anti-spoofing,180,2020,openaccess.thecvf.com,Z Wang
+Searching central difference convolutional networks for face anti-spoofing,359,2020,openaccess.thecvf.com,Z Yu
+On disentangling spoof trace for generic face anti-spoofing,119,2020,Springer,Y Liu
+Face anti-spoofing with multifeature videolet aggregation,111,2016,ieeexplore.ieee.org,TA Siddiqui
+Celeba-spoof: Large-scale face anti-spoofing dataset with rich annotations,141,2020,Springer,Y Zhang
+Learning meta pattern for face anti-spoofing,50,2022,ieeexplore.ieee.org,R Cai
+A dataset and benchmark for large-scale multi-modal face anti-spoofing,169,2019,openaccess.thecvf.com,S Zhang
+A performance evaluation of convolutional neural networks for face anti spoofing,98,2019,ieeexplore.ieee.org,C Nagpal
+Face anti-spoofing: Multi-spectral approach,68,2014,Springer,D Yi
+Multi-modal face anti-spoofing based on central difference networks,71,2020,openaccess.thecvf.com,Z Yu
+Face anti-spoofing based on general image quality assessment,216,2014,ieeexplore.ieee.org,J Galbally
+Unsupervised domain adaptation for face anti-spoofing,220,2018,ieeexplore.ieee.org,H Li
+Regularized fine-grained meta face anti-spoofing,141,2020,ojs.aaai.org,R Shao
+Casia-surf: A large-scale multi-modal benchmark for face anti-spoofing,120,2020,ieeexplore.ieee.org,S Zhang
+Visual object recognition,1426,1996,annualreviews.org,NK Logothetis
+Object recognition,87,2013,books.google.com,JE Hummel
+The role of context in object recognition,1176,2007,cell.com,A Oliva
+Color-based object recognition,1237,1999,Elsevier,T Gevers
+Models of object recognition,898,2000,nature.com,M Riesenhuber
+[BOOK][B] Visual object recognition,681,2011,books.google.com,K Grauman
+Three-dimensional object recognition,1677,1985,dl.acm.org,PJ Besl
+Computational strategies for object recognition,387,1992,dl.acm.org,P Suetens
+Object recognition,114,2012,books.google.com,NS Sutherland
+Object recognition from local scale-invariant features,25029,1999,ieeexplore.ieee.org,DG Lowe
+[BOOK][B] Object recognition: fundamentals and case studies,131,2001,books.google.com,M Bennamoun
+Object recognition,68,2015,taylorfrancis.com,MJ Riddoch
+[HTML][HTML] Why is real-world visual object recognition hard?,741,2008,journals.plos.org,N Pinto
+[PDF][PDF] How does the brain solve visual object recognition?,1820,2012,cell.com,JJ DiCarlo
+What is the best multi-stage architecture for object recognition?,2888,2009,ieeexplore.ieee.org,K Jarrett
+Pictorial structures for object recognition,3037,2005,Springer,PF Felzenszwalb
+Learning models for object recognition,113,2001,ieeexplore.ieee.org,PF Felzenszwalb
+Does object recognition work for everyone?,225,2019,openaccess.thecvf.com,T De
+Visual object recognition: do we know more now than we did 20 years ago?,199,2007,annualreviews.org,JJ Peissig
+The uncrowded window of object recognition,721,2008,nature.com,DG Pelli
+Untangling invariant object recognition,1030,2007,cell.com,JJ DiCarlo
+HFirst: A temporal approach to object recognition,296,2015,ieeexplore.ieee.org,G Orchard
+[PDF][PDF] Learning Image Components for Object Recognition.,109,2006,jmlr.org,MW Spratling
+Selective search for object recognition,7766,2013,Springer,JRR Uijlings
+Object recognition using vision and touch,151,1985,academiccommons.columbia.edu,PK Allen
+[BOOK][B] High-level vision: Object recognition and visual cognition,849,2000,books.google.com,S Ullman
+Recurrent convolutional neural network for object recognition,1272,2015,openaccess.thecvf.com,M Liang
+Object recognition testing: statistical considerations,106,2012,Elsevier,S Akkerman
+Object recognition with gradient-based learning,1552,1999,Springer,DA Forsyth
+Object recognition,40,2007,upcommons.upc.edu,J Andrade-Cetto
+[PDF][PDF] Named entity recognition approaches,229,2008,Citeseer,A Mansouri
+A survey of named entity recognition and classification,3603,2007,jbe-platform.com,D Nadeau
+Named entity recognition,209,2014,Springer,B Mohit
+[PDF][PDF] Evaluating and combining name entity recognition systems,116,2016,aclanthology.org,R Jiang
+[PDF][PDF] Named entity recognition without gazetteers,664,1999,aclanthology.org,A Mikheev
+Neural architectures for named entity recognition,4814,2016,arxiv.org,G Lample
+[PDF][PDF] Named entity recognition: A literature survey,87,2014,cfilt.iitb.ac.in,R Sharnagat
+"Named entity recognition: fallacies, challenges and opportunities",302,2013,Elsevier,M Marrero
+[PDF][PDF] Named entity recognition in tweets: an experimental study,1678,2011,aclanthology.org,A Ritter
+A survey on deep learning for named entity recognition,1229,2020,ieeexplore.ieee.org,J Li
+Named entity recognition and relation extraction: State-of-the-art,119,2021,dl.acm.org,Z Nasar
+[PDF][PDF] Named entity recognition through classifier combination,646,2003,aclanthology.org,R Florian
+Named entity recognition in query,492,32,dl.acm.org,J Guo
+[PDF][PDF] Named entity recognition: Exploring features.,131,2012,academia.edu,M Tkachenko
+[PDF][PDF] Nested named entity recognition,365,2009,aclanthology.org,JR Finkel
+[PDF][PDF] Named entity recognition,29,229,Citeseer,V Krishnan
+A survey on recent advances in named entity recognition from deep learning models,778,1910,arxiv.org,V Yadav
+[PDF][PDF] Person name entity recognition for Arabic,117,2007,aclanthology.org,K Shaalan
+Overview of named entity recognition,82,2022,ojs.bbwpublisher.com,X Liu
+[PDF][PDF] Nerd: evaluating named entity recognition tools in the web of data,146,2011,core.ac.uk,G Rizzo
+[PDF][PDF] Chinese named entity recognition with conditional probabilistic models,110,2006,aclanthology.org,A Chen
+[PDF][PDF] Named entity recognition using an HMM-based chunk tagger,1075,40,aclanthology.org,GD Zhou
+Recent named entity recognition and classification techniques: a systematic review,299,2018,Elsevier,A Goyal
+A framework for named entity recognition in the open domain.,121,2003,torrossa.com,RJ Evans
+NeuroNER: an easy-to-use program for named-entity recognition based on neural networks,239,1705,arxiv.org,F Dernoncourt
+NERA: Named entity recognition for Arabic,175,2009,Library,K Shaalan
+Arabic named entity recognition from diverse text types,353,6,Springer,K Shaalan
+[BOOK][B] Named entity recognition and resolution in legal text,127,2010,Springer,C Dozier
+Deep active learning for named entity recognition,498,2017,arxiv.org,Y Shen
+[PDF][PDF] Named entity recognition with a maximum entropy approach,346,2003,aclanthology.org,HL Chieu
+[HTML][HTML] Sentiment analysis algorithms and applications: A survey,3552,2014,Elsevier,W Medhat
+Sentiment analysis: An overview from linguistics,284,2016,annualreviews.org,M Taboada
+"[HTML][HTML] A survey on sentiment analysis methods, applications, and challenges",344,2022,Springer,M Wankhade
+[HTML][HTML] A survey on sentiment analysis challenges,685,2018,Elsevier,DMEDM Hussein
+[BOOK][B] A practical guide to sentiment analysis,299,2017,Springer,E Cambria
+Sentiment analysis: A combined approach,1085,2009,Elsevier,R Prabowo
+Comparing and combining sentiment analysis methods,561,2013,dl.acm.org,P Gonçalves
+Sentiment analysis: a comparative study on different approaches,341,2016,Elsevier,MD Devika
+Using appraisal groups for sentiment analysis,922,14,dl.acm.org,C Whitelaw
+[PDF][PDF] Sentiment analysis and subjectivity.,3140,2010,researchgate.net,B Liu
+Sentiment analysis in the news,413,2013,arxiv.org,A Balahur
+Sentiment analysis,87,2021,Springer,S Mukherjee
+Survey on aspect-level sentiment analysis,789,2015,ieeexplore.ieee.org,K Schouten
+Sentiment analysis,50,2019,annualreviews.org,RA Stine
+"[CITATION][C] Sentiment analysis: A perspective on its past, present and future",235,2012,…,A Kumar
+A survey of multimodal sentiment analysis,511,2017,Elsevier,M Soleymani
+Sentiment analysis: A review and comparative analysis of web services,521,2015,Elsevier,J Serrano-Guerrero
+Joint sentiment/topic model for sentiment analysis,1266,18,dl.acm.org,C Lin
+[HTML][HTML] Sentiment analysis using product review data,869,2015,journalofbigdata.springeropen.com,X Fang
+Challenges in sentiment analysis,102,2017,Springer,SM Mohammad
+"A comprehensive survey on sentiment analysis: Approaches, challenges and trends",471,2021,Elsevier,M Birjali
+Sentiment embeddings with applications to sentiment analysis,336,2015,ieeexplore.ieee.org,D Tang
+"[BOOK][B] Sentiment analysis: Mining opinions, sentiments, and emotions",2088,2020,books.google.com,B Liu
+A survey of sentiment analysis in social media,460,2019,Springer,L Yue
+A survey on sentiment analysis methods and approach,109,2016,ieeexplore.ieee.org,AM Abirami
+Sentiment analysis on social media,280,2012,ieeexplore.ieee.org,F Neri
+An introduction to concept-level sentiment analysis,121,12,Springer,E Cambria
+"[PDF][PDF] A review on sentiment analysis methodologies, practices and applications",137,2020,researchgate.net,P Mehta
+Sentiment analysis techniques in recent works,121,2015,ieeexplore.ieee.org,Z Madhoushi
+[BOOK][B] Sentiment analysis and opinion mining,9550,2022,books.google.com,B Liu
+Automatic text summarization: A comprehensive survey,523,2021,Elsevier,WS El-Kassas
+A survey automatic text summarization,707,2007,dergipark.org.tr,O Tas
+Recent automatic text summarization techniques: a survey,783,2017,Springer,M Gambhir
+Text summarization with pretrained encoders,1558,1908,arxiv.org,Y Liu
+[BOOK][B] Advances in automatic text summarization,1388,1999,books.google.com,I Mani
+[HTML][HTML] Review of automatic text summarization techniques & methods,153,2022,Elsevier,AP Widyassari
+Text summarization: a brief review,70,2020,Springer,L Abualigah
+Evaluation measures for text summarization,271,2009,cai.sk,J Steinberger
+Neural text summarization: A critical evaluation,351,2019,arxiv.org,W Kryściński
+Improving performance of text summarization,138,2015,Elsevier,SA Babar
+[PDF][PDF] Automatic text summarization,174,2008,Citeseer,MA Fattah
+[PDF][PDF] A survey of text summarization extractive techniques,882,2010,Citeseer,V Gupta
+A survey of text summarization techniques,743,2012,Springer,A Nenkova
+"Automatic text summarization: Past, present and future",237,2013,Springer,H Saggion
+SUMMAC: a text summarization evaluation,169,2002,cambridge.org,I Mani
+[BOOK][B] Automatic text summarization,244,2014,books.google.com,JM Torres-Moreno
+Text summarization techniques: a brief survey,659,2017,arxiv.org,M Allahyari
+[PDF][PDF] A survey on automatic text summarization,118,2019,jad.shahroodut.ac.ir,N Nazari
+A new approach to unsupervised text summarization,211,24,dl.acm.org,T Nomoto
+"A survey of automatic text summarization: Progress, process and challenges",50,2021,ieeexplore.ieee.org,MF Mridha
+Automatic text summarization using a machine learning approach,303,2002,Springer,JL Neto
+Text summarization from legal documents: a survey,163,2019,Springer,A Kanapala
+[PDF][PDF] A comprehensive survey on text summarization systems,128,2009,hpcclab.org,S Gholamrezazadeh
+[PDF][PDF] Automatic text summarization (the state of the art 2007 and new challenges),166,2008,academia.edu,K Ježek
+Re-evaluating evaluation in text summarization,132,2020,arxiv.org,M Bhandari
+Improving abstraction in text summarization,173,2018,arxiv.org,W Kryściński
+Text summarization using unsupervised deep learning,249,2017,Elsevier,M Yousefi-Azar
+A survey on extractive text summarization,240,2017,ieeexplore.ieee.org,N Moratanch
+Wikihow: A large scale text summarization dataset,218,1810,arxiv.org,M Koupaee
+Automatic text summarization: What has been done and what has to be done,45,1904,arxiv.org,A Aries
+Statistical machine translation,610,2008,dl.acm.org,A Lopez
+[BOOK][B] Statistical machine translation,2434,2009,books.google.com,P Koehn
+[PDF][PDF] A statistical approach to machine translation,2787,1990,aclanthology.org,PF Brown
+[HTML][HTML] Progress in machine translation,48,2022,Elsevier,H Wang
+[BOOK][B] Machine translation,198,2017,books.google.com,T Poibeau
+Neural machine translation: A review,243,2020,jair.org,F Stahlberg
+Google's neural machine translation system: Bridging the gap between human and machine translation,7768,2016,arxiv.org,Y Wu
+Neural machine translation by jointly learning to align and translate,32262,1409,arxiv.org,D Bahdanau
+Machine translation,72,2018,taylorfrancis.com,D Kenny
+Machine translation: A brief history,291,1995,Elsevier,WJ Hutchins
+Approaches to machine translation,140,2010,nopr.niscpr.res.in,S Tripathi
+[PDF][PDF] Statistical machine translation,229,1999,www-i6.informatik.rwth-aachen.de,Y Al-Onaizan
+[BOOK][B] Machine translation,69,2015,books.google.com,P Bhattacharyya
+Dual learning for machine translation,954,2016,proceedings.neurips.cc,D He
+[BOOK][B] Neural machine translation,200,2020,books.google.com,P Koehn
+[PDF][PDF] Machine translation: A concise history,269,2007,xwiki.recursos.uoc.edu,J Hutchins
+[BOOK][B] Translation engines: techniques for machine translation,343,1999,books.google.com,A Trujillo
+[PDF][PDF] Grammatical machine translation,352,2006,aclanthology.org,S Riezler
+Unsupervised neural machine translation,843,1710,arxiv.org,M Artetxe
+Neural machine translation in linear time,614,2016,arxiv.org,N Kalchbrenner
+[PDF][PDF] Machine translation approaches: issues and challenges,140,2014,academia.edu,MD Okpor
+Google's multilingual neural machine translation system: Enabling zero-shot translation,2161,2017,direct.mit.edu,M Johnson
+[PDF][PDF] The LRC machine translation system,181,1985,aclanthology.org,WS Bennett
+[BOOK][B] Machine translation: Its scope and limits,204,2008,books.google.com,Y Wilks
+Making sense of neural machine translation,235,2017,jbe-platform.com,ML Forcada
+Neural machine translation with reconstruction,226,2017,ojs.aaai.org,Z Tu
+Neural machine translation advised by statistical machine translation,107,2017,ojs.aaai.org,X Wang
+Learning to translate in real-time with neural machine translation,203,1610,arxiv.org,J Gu
+Is machine translation ready yet?,177,2010,jbe-platform.com,I Garcia
+"[PDF][PDF] A survey of machine translation: Its history, current status and future prospects",309,1985,aclanthology.org,J Slocum
+[HTML][HTML] Smart literature review: a practical topic modelling approach to exploratory literature review,287,2019,Springer,CB Asmussen
+Topic modelling for qualitative studies,328,2017,journals.sagepub.com,SI Nikolenko
+[PDF][PDF] A text mining research based on LDA topic modelling,186,2016,researchgate.net,Z Tong
+Quantitative analysis of large amounts of journalistic texts using topic modelling,568,2018,taylorfrancis.com,C Jacobi
+'What is this corpus about?': using topic modelling to explore a specialised corpus,123,2017,euppublishing.com,A Murakami
+The utility of topic modelling for discourse studies: A critical evaluation,116,2019,journals.sagepub.com,G Brookes
+Topic models,1573,2009,taylorfrancis.com,DM Blei
+[PDF][PDF] More efficient topic modelling through a noun only approach,134,2015,aclanthology.org,F Martin
+Applications of topic models,317,2017,nowpublishers.com,J Boyd-Graber
+A bibliometric analysis of topic modelling studies (2000–2017),84,2021,journals.sagepub.com,X Li
+[PDF][PDF] LDA-based topic modelling in text sentiment classification: An empirical analysis.,105,2016,academia.edu,A Onan
+Topic modeling: a comprehensive review,207,2019,eudl.eu,P Kherwa
+Topic modelling meets deep neural networks: A survey,99,2021,arxiv.org,H Zhao
+[PDF][PDF] An evaluation of topic modelling techniques for twitter,54,2015,cs.toronto.edu,E Jónsson
+[PDF][PDF] The Order of Things. A Study on Topic Modelling of Literary Texts.,27,2020,ceur-ws.org,I Uglanova
+An evaluation of document clustering and topic modelling in two online social networks: Twitter and Reddit,238,2020,Elsevier,SA Curiskis
+Dynamic topic models,3613,23,dl.acm.org,DM Blei
+Scoping review of mindfulness research: A topic modelling approach,42,2019,Springer,YH Kee
+[PDF][PDF] Topic Modelling with Word Embeddings.,22,2016,pdfs.semanticscholar.org,F Esposito
+Topic modelling for short text,11,2015,repository.up.ac.za,JR Mazarura
+Software framework for topic modelling with large corpora,5012,2010,repozitar.cz,R Řehůřek
+Clustop: A clustering-based topic modelling algorithm for twitter using word networks,35,2017,ieeexplore.ieee.org,KH Lim
+Probabilistic topic models,2490,2007,books.google.com,M Steyvers
+Propaganda identification using topic modelling,20,2020,Elsevier,Y Kirill
+Visualizing topic models,331,2012,ojs.aaai.org,A Chaney
+[PDF][PDF] Unsupervised topic modelling for multi-party spoken discourse,186,2006,aclanthology.org,M Purver
+A network approach to topic models,236,2018,science.org,M Gerlach
+[PDF][PDF] Topic modelling methodology: its use in information systems and other managerial disciplines,63,2017,core.ac.uk,M Eickhoff
+[HTML][HTML] A topic modelling analysis of living labs research,88,2018,timreview.ca,M Westerlund
+[PDF][PDF] Studying the history of ideas using topic models,651,2008,aclanthology.org,D Hall

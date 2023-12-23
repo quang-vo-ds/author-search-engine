@@ -1,6 +1,9 @@
 from sentence_transformers import SentenceTransformer, util
 import pandas as pd
 import numpy as np
+from sklearn.neighbors import BallTree
+from joblib import dump, load
+import os
 
 class DatabaseEmbedder:
     def __init__(self, batch_size=2, model=None):
@@ -17,12 +20,18 @@ class DatabaseEmbedder:
             emb = self.model.encode(batch)
             embeddings.append(emb)
         embeddings = np.concatenate(embeddings, axis=0) ## Stack embedding batches
+
+        ## Indexing with BallTree
+        tree = BallTree(embeddings, leaf_size=2, metric='manhattan')
+        
         ## Save result
-        np.save(output_dir, embeddings)
+        np.save(os.path.join(output_dir, "embeddings_raw.npy"), embeddings)
+        dump(tree, os.path.join(output_dir, "embeddings_tree.joblib"))
+
 
 if __name__ == '__main__':
     embedder = DatabaseEmbedder(batch_size=2, model="model/")
-    embedder.run(data_dir="data/raw_data.csv", output_dir="database_embedder/title_embedding.npy")
+    embedder.run(data_dir="data/raw_data.csv", output_dir="database_embedder/")
             # for i, row in raw_data.iterrows():
             # title = row["Paper Title"]
             # num_cited = row["Citation"]
