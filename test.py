@@ -1,43 +1,27 @@
-import requests
-from time import sleep 
-import re
+
 import pandas as pd
+import numpy as np
+import requests
+import time
 from bs4 import BeautifulSoup
 
-headers = {'user-agent':'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36'}
-url = "https://scholar.google.com/scholar?start=10&q=object+detection+in+aerial+image+&hl=en&as_sdt=0,5"
+article_info = []
 
-def get_paperinfo(url):
+# range(first_page, last_page)
+for i in range(0, 20, 10):
+    page = requests.get("https://scholar.google.com/scholar?start=" + str(i) + "&q=mitochondrial+synthesis&hl=en&as_sdt=0,5&as_ylo=2020&as_yhi=2022&as_rr=1")
+    # sleep between requests
+    time.sleep(60)
+     
+    soup = BeautifulSoup(page.text, 'html.parser')
+    article_names = soup.findAll('div', attrs={'class':'gs_r gs_or gs_scl'})
+    for store in article_names:
+        title = store.h3.a.text
+        url = store.h3.a
+        article_info.append([title, url['href']])
 
-  #download the page
-  response=requests.get(url)
+article_list = pd.DataFrame(article_info)
 
-  # check successful response
-  if response.status_code != 200:
-    print('Status code:', response.status_code)
-    raise Exception('Failed to fetch web page ')
-
-  #parse using beautiful soup
-  paper_doc = BeautifulSoup(response.text,'html.parser')
-
-  return paper_doc
-
-def get_tags(doc):
-  paper_tag = doc.select('[data-lid]')
-  cite_tag = doc.select('[title=Cite] + a')
-  link_tag = doc.find_all('h3',{"class" : "gs_rt"})
-  author_tag = doc.find_all("div", {"class": "gs_a"})
-
-  return paper_tag,cite_tag,link_tag,author_tag
-
-# paper title from each page
-def get_papertitle(paper_tag):
-  paper_names = []
-  for tag in paper_tag:
-    paper_names.append(tag.select('h3')[0].get_text())
-  return paper_names
-
-doc = get_paperinfo(url)
-paper_tag,cite_tag,link_tag,author_tag = get_tags(doc)
-print(doc)
-print(get_papertitle(author_tag))
+# write to CSV
+print(article_list)
+article_list.to_csv('data/raw_data.csv', index=False)
