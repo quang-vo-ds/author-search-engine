@@ -1,16 +1,18 @@
 from sentence_transformers import SentenceTransformer, util
 import json
+import gradio as gr
 import numpy as np
+import pandas as pd
 
+raw_data_file = "data/raw_data.csv"
 embedding_file = "database_embedder/title_embedding.npy"
-model_dir = 'model/'
+model_dir = "model/"
 
-model = SentenceTransformer('model/')
+raw_data = pd.read_csv(raw_data_file)
+model = SentenceTransformer(model_dir)
 title_embedding = np.load(embedding_file)
 
-def lambda_handler(event, context):
-    query = json.dumps(event["data"])
-    topk = json.dumps(event["topk"])
+def handler(query, topk):
     query_emb = model.encode(query) ## Encode query
     
     ## Find top similar titles to the query
@@ -19,28 +21,31 @@ def lambda_handler(event, context):
         scores.append(util.cos_sim(query_emb, title_embedding[i,:]))
     top_idx = sorted(range(len(scores)), reverse=True, key=scores.__getitem__)[:topk]
 
-    ## 
-
+    ## Calculate total citation for each author of the top relevant papers
+    author_rank = {}
+    for i, row in raw_data.iloc[top_idx].iterrows():
+        if row["authors"] not in author_rank.keys():
+            author_rank[row["authors"]] = int(row["cite_count"])
+        else:
+            author_rank[row["authors"]] += int(row["cite_count"])
+    author_rank = [(k,v) for k, v in sorted(author_rank.items(), reverse=True, key=lambda item: item[1])]
+    outcome = ""
+    for author, citation in author_rank:
+        outcome = outcome + f"{author}:{citation}\n"
+    return outcome
 
 if __name__ == '__main__':
-    event = {
-        "data": "A",
-        "topk": 3
-    }
-    result = lambda_handler(event, "")
-
-# #Compute cosine similarity between all pairs
-# cos_sim = util.cos_sim(embeddings, embeddings)
-
-# #Add all pairs to a list with their cosine similarity score
-# all_sentence_combinations = []
-# for i in range(len(cos_sim)-1):
-#     for j in range(i+1, len(cos_sim)):
-#         all_sentence_combinations.append([cos_sim[i][j], i, j])
-
-# #Sort list by the highest cosine similarity score
-# all_sentence_combinations = sorted(all_sentence_combinations, key=lambda x: x[0], reverse=True)
-
-# print("Top-5 most similar pairs:")
-# for score, i, j in all_sentence_combinations[0:5]:
-#     print("{} \t {} \t {:.4f}".format(sentences[i], sentences[j], cos_sim[i][j]))
+    demo = gr.Interface(
+        fn=handler,
+        inputs=[gr.Textbox(), gr.Number()],
+        outputs=gr.Textbox(),
+    )
+    demo.launch(share=True)
+    
+    
+    # payload = {
+    #     "data": "object detection",
+    #     "topk": 10
+    # }
+    # result = lambda_handler(payload)
+    # print(result)

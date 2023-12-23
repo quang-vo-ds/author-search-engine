@@ -10,7 +10,7 @@ class DatabaseEmbedder:
     
     def run(self, data_dir=None, output_dir=None):
         raw_data = pd.read_csv(data_dir)
-        titles = raw_data["Paper Title"].to_list()
+        titles = raw_data["paper_title"].to_list()
         embeddings = []
         for i in range(0, len(titles), self.batch_size):
             batch = titles[i:i+self.batch_size]
@@ -22,7 +22,7 @@ class DatabaseEmbedder:
 
 if __name__ == '__main__':
     embedder = DatabaseEmbedder(batch_size=2, model="model/")
-    embedder.run(data_dir="data/data.csv", output_dir="src/title_embedding.npy")
+    embedder.run(data_dir="data/raw_data.csv", output_dir="database_embedder/title_embedding.npy")
             # for i, row in raw_data.iterrows():
             # title = row["Paper Title"]
             # num_cited = row["Citation"]
