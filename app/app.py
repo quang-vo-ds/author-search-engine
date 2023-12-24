@@ -17,7 +17,7 @@ def handler(query, topk):
     query_emb = model.encode(query).reshape(1,-1) ## Encode query
     
     ## Find top similar titles to the query
-    _, top_ids = tree.query(query_emb, k=topk)
+    _, top_ids = tree.query(query_emb, k=20)
     print(top_ids)
 
     ## Calculate total citation for each author of the top relevant papers
@@ -28,9 +28,11 @@ def handler(query, topk):
         else:
             author_rank[row["authors"]] += int(row["cite_count"])
     author_rank = [(k,v) for k, v in sorted(author_rank.items(), reverse=True, key=lambda item: item[1])]
+    
+    ## Build outcome as a string for printing purpose
     outcome = ""
     for author, citation in author_rank:
-        outcome = outcome + f"{author}:{citation}\n"
+        outcome = outcome + f"{author}: {citation}\n"
     return outcome
 
 if __name__ == '__main__':
