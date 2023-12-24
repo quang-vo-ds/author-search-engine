@@ -6,4 +6,4 @@ RUN pip install -r requirements.txt
 COPY ./model/   ./model/
 COPY ./database_embedder/   ./database_embedder/
 COPY ./app/app.py   ./
-CMD ["app.lambda_handler"]
+CMD ["app.handler"]

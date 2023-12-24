@@ -31,7 +31,7 @@ def handler(query, topk):
     
     ## Build outcome as a string for printing purpose
     outcome = ""
-    for author, citation in author_rank:
+    for author, citation in author_rank[:topk]:
         outcome = outcome + f"{author}: {citation}\n"
     return outcome
 
@@ -41,4 +41,4 @@ if __name__ == '__main__':
         inputs=[gr.Textbox(), gr.Number()],
         outputs=gr.Textbox()
     )
-    demo.launch(share=True)
+    demo.launch(server_name='0.0.0.0', share=True)

@@ -2,6 +2,8 @@ import requests
 from time import sleep 
 import re
 import pandas as pd
+import json
+import os
 from bs4 import BeautifulSoup
 
 class GoogleScholarScraper:
@@ -16,11 +18,14 @@ class GoogleScholarScraper:
             "publication": [],
             "authors": []
         }
+        self.labels_dict = {}
+        self.num_examples = 0
 
     ## Main
-    def run(self, topics, num_paper_per_topic=10, wait=40, output_dir="data/raw_data.csv"):
+    def run(self, topics, num_paper_per_topic=10, wait=40, output_dir="data/"):
         for topic in topics:
             topic_str = "+".join(topic.lower().split())
+            self.labels_dict[topic] = [_ for _ in range(self.num_examples, self.num_examples+num_paper_per_topic)]
             print("Working on topic: ", topic_str)
             for i in range(0,num_paper_per_topic,10):
                 url = f"https://scholar.google.com/scholar?start={i}&q={topic_str}&hl=en&as_sdt=0,5"
@@ -29,10 +34,13 @@ class GoogleScholarScraper:
                 self.get_papertitle(paper_tag)
                 self.get_citecount(cite_tag)
                 self.get_author_year_publi_info(author_tag)
+                self.num_examples += 10
                 sleep(wait)
-        ## Save as csv
+        ## Save data
         df = pd.DataFrame(self.df)
-        df.to_csv(output_dir, index=False)
+        df.to_csv(os.path.join(output_dir,"raw_data.csv"), index=False)
+        with open(os.path.join(output_dir,"labels_dict.json"), 'w') as f:
+            json.dump(self.labels_dict, f)
 
     
     ## Getting inforamtion of the web page
@@ -84,5 +92,5 @@ if __name__ == '__main__':
     scraper = GoogleScholarScraper()
     demo_topics = ["object detection", "face recognition", "biological vision", "face anti spoofing", "object recognition",
                    "name entity recognition", "sentiment analysis", "text summarization", "machine translation", "topic modelling"]
-    scraper.run(topics=demo_topics, num_paper_per_topic=20, wait=60, output_dir="data/raw_data.csv")
+    scraper.run(topics=demo_topics, num_paper_per_topic=30, wait=60, output_dir="data/")
     print(scraper.df)
