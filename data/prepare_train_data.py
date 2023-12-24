@@ -16,14 +16,14 @@ def prepare_train_data(raw_data_file, labels_file, output_dir):
         for idx in labels_dict[topic]:
              ## Prepare positive examples
              curr_title = raw_df.iloc[idx]["paper_title"] # grab the current title and its topic
-             pos_idx = np.random.choice(labels_dict[topic]) # randomly pick an image that belongs to the *same* class
+             pos_idx = np.random.choice(labels_dict[topic]) # randomly pick an title that belongs to the *same* class
              pos_title = raw_df.iloc[pos_idx]["paper_title"] # grab the title in the same topic
              pair_titles.append([curr_title, pos_title])
              pair_labels.append(1) ## Label as 1
              
              ## Prepare negative examples
-             rand_topic = np.random.choice(other_topics)
-             neg_idx = np.random.choice(labels_dict[rand_topic])
+             rand_topic = np.random.choice(other_topics) # randomly pick 
+             neg_idx = np.random.choice(labels_dict[rand_topic]) # randomly pick an title that belongs to the *different* class
              neg_title = raw_df.iloc[neg_idx]["paper_title"] # grab the title in a different topic
              pair_titles.append([curr_title, neg_title])
              pair_labels.append(0) ## Label as 0
@@ -36,10 +36,7 @@ def prepare_train_data(raw_data_file, labels_file, output_dir):
     })
     ## Save data
     train_data.to_csv(os.path.join(output_dir,"train_data.csv"), index=False)
-
     return train_data
-
-
 
 if __name__ == '__main__':
     train_data = prepare_train_data("data/raw_data.csv", "data/labels_dict.json", "data/")
