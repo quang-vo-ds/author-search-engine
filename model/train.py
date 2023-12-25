@@ -21,7 +21,7 @@ model = SentenceTransformer('all-MiniLM-L6-v2') # all-MiniLM-L6-v2 as base model
 num_epochs = 1
 train_batch_size = 16
 dataset_path = 'data/'
-model_save_path = 'model/training_MultipleNegativesRankingLoss-'+datetime.now().strftime("%Y-%m-%d_%H-%M-%S")
+model_save_path = 'model/training_ContrastiveLoss-'+datetime.now().strftime("%Y-%m-%d_%H-%M-%S")
 os.makedirs(model_save_path, exist_ok=True)
 
 ## Read train data
@@ -30,12 +30,16 @@ with open(os.path.join(dataset_path, "train_data.csv"), encoding='utf8') as fIn:
     reader = csv.DictReader(fIn, delimiter='|', quoting=csv.QUOTE_NONE)
     for row in reader:
         if row['label'] == '1':
-            train_samples.append(InputExample(texts=[row['title_1'], row['title_2']], label=1))
-            train_samples.append(InputExample(texts=[row['title_2'], row['title_1']], label=1)) #if A is a duplicate of B, then B is a duplicate of A
+            sample = InputExample(texts=[row['title_1'], row['title_2']], label=int(row['label']))
+            train_samples.append(sample)
 
 ## Create a DataLoader
 train_dataloader = DataLoader(train_samples, shuffle=True, batch_size=train_batch_size)
-train_loss = losses.MultipleNegativesRankingLoss(model)
+
+## Loss function
+distance_metric = losses.SiameseDistanceMetric.COSINE_DISTANCE
+margin = 0.5
+train_loss = losses.OnlineContrastiveLoss(model=model, distance_metric=distance_metric, margin=margin)
 
 
 ## Evaluator
