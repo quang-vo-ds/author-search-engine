@@ -5,6 +5,7 @@ import numpy as np
 import pandas as pd
 from joblib import load
 
+## Import all necessary files for this app
 raw_data_file = "data/raw_data.csv"
 embedding_tree_file = "database_embedder/embeddings_tree.joblib"
 model_dir = "model/"
@@ -13,6 +14,7 @@ raw_data = pd.read_csv(raw_data_file)
 model = SentenceTransformer(model_dir)
 tree = load(embedding_tree_file)
 
+## Main function
 def handler(query, topk):
     query_emb = model.encode(query).reshape(1,-1) ## Encode query
     
@@ -32,10 +34,11 @@ def handler(query, topk):
     ## Build outcome as a string for printing purpose
     outcome = ""
     for author, citation in author_rank[:topk]:
-        outcome = outcome + f"{author}: {citation}\n"
+        outcome = outcome + f"{author}. No. of citation: {citation}\n"
     return outcome
 
 if __name__ == '__main__':
+    ## Build app using Gradio
     demo = gr.Interface(
         fn=handler,
         inputs=[gr.Textbox(), gr.Number()],

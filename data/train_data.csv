@@ -1,61 +1,501 @@
-title_1,title_2,label
-Object detection in 20 years: A survey,Imbalance problems in object detection: A review,1
-Object detection in 20 years: A survey,[BOOK][B] A practical guide to sentiment analysis,0
-A trainable system for object detection,"Scalable, high-quality object detection",1
-A trainable system for object detection,On disentangling spoof trace for generic face anti-spoofing,0
-Object detection with deep learning: A review,A general framework for object detection,1
-Object detection with deep learning: A review,Polarization vision and its role in biological signaling,0
-A general framework for object detection,A survey of deep learning-based object detection,1
-A general framework for object detection,Selective search for object recognition,0
-Object detection,Interactive object detection,1
-Object detection,[BOOK][B] Machine translation: Its scope and limits,0
-Relation networks for object detection,Unitbox: An advanced object detection network,1
-Relation networks for object detection,Visualizing topic models,0
-A review of object detection based on deep learning,Imbalance problems in object detection: A review,1
-A review of object detection based on deep learning,Overview of the face recognition grand challenge,0
-Deep neural networks for object detection,Object detection in 20 years: A survey,1
-Deep neural networks for object detection,[PDF][PDF] Named entity recognition without gazetteers,0
-An empirical study of context in object detection,[PDF][PDF] Robust real-time object detection,1
-An empirical study of context in object detection,Face anti-spoofing with multifeature videolet aggregation,0
-"You only look once: Unified, real-time object detection","Scalable, high-quality object detection",1
-"You only look once: Unified, real-time object detection",An Approach for Target Detection and Extraction Based on Biological Vision.,0
-Efficientdet: Scalable and efficient object detection,[HTML][HTML] Deep learning for generic object detection: A survey,1
-Efficientdet: Scalable and efficient object detection,HFirst: A temporal approach to object recognition,0
-A survey on performance metrics for object-detection algorithms,Towards open world object detection,1
-A survey on performance metrics for object-detection algorithms,[PDF][PDF] A comprehensive survey on text summarization systems,0
-Unitbox: An advanced object detection network,[HTML][HTML] Deep learning for generic object detection: A survey,1
-Unitbox: An advanced object detection network,[PDF][PDF] Image analysis for face recognition,0
-Towards open world object detection,"You only look once: Unified, real-time object detection",1
-Towards open world object detection,Learning to translate in real-time with neural machine translation,0
-Scale-transferrable object detection,Object detection with deep learning: A review,1
-Scale-transferrable object detection,[BOOK][B] Sentiment analysis and opinion mining,0
-[PDF][PDF] Robust real-time object detection,"Scalable, high-quality object detection",1
-[PDF][PDF] Robust real-time object detection,[BOOK][B] Sentiment analysis and opinion mining,0
-[HTML][HTML] Deep learning for generic object detection: A survey,Multiresolution models for object detection,1
-[HTML][HTML] Deep learning for generic object detection: A survey,[HTML][HTML] Sentiment analysis using product review data,0
-Recent advances in deep learning for object detection,Relation networks for object detection,1
-Recent advances in deep learning for object detection,[BOOK][B] Quo vadis face recognition?,0
-Interactive object detection,Unitbox: An advanced object detection network,1
-Interactive object detection,Text summarization with pretrained encoders,0
-A review of object detection techniques,Towards open world object detection,1
-A review of object detection techniques,[HTML][HTML] A topic modelling analysis of living labs research,0
-"Scalable, high-quality object detection","You only look once: Unified, real-time object detection",1
-"Scalable, high-quality object detection",Computer vision imaging based on artificial intelligence,0
-A survey of deep learning-based object detection,Towards open world object detection,1
-A survey of deep learning-based object detection,[HTML][HTML] Bio-inspired computer vision: Towards a synergistic approach of artificial and biological vision,0
-[PDF][PDF] Object detection: an overview,Unitbox: An advanced object detection network,1
-[PDF][PDF] Object detection: an overview,[BOOK][B] Named entity recognition and resolution in legal text,0
-Object detection using the statistics of parts,Efficientdet: Scalable and efficient object detection,1
-Object detection using the statistics of parts,Topic models,0
-Imbalance problems in object detection: A review,A survey of deep learning-based object detection,1
-Imbalance problems in object detection: A review,[PDF][PDF] Learning Image Components for Object Recognition.,0
-A review of object detection based on convolutional neural network,[PDF][PDF] Robust real-time object detection,1
-A review of object detection based on convolutional neural network,Polarization vision and its role in biological signaling,0
-Multiresolution models for object detection,Efficientdet: Scalable and efficient object detection,1
-Multiresolution models for object detection,"[BOOK][B] Pattern formation in biology, vision and dynamics",0
-Recent progresses on object detection: a brief review,"You only look once: Unified, real-time object detection",1
-Recent progresses on object detection: a brief review,A framework for named entity recognition in the open domain.,0
-A comprehensive review of object detection with deep learning,A review of object detection based on deep learning,1
-A comprehensive review of object detection with deep learning,The utility of topic modelling for discourse studies: A critical evaluation,0
-CenterNet++ for object detection,[PDF][PDF] Object detection: an overview,1
-CenterNet++ for object detection,Topic models,0
+title_1|title_2|label
+Object detection in 20 years: A survey|Recent progresses on object detection: a brief review|1
+Object detection in 20 years: A survey|[PDF][PDF] A review on sentiment analysis methodologies, practices and applications|0
+Object detection with deep learning: A review|A survey on performance metrics for object-detection algorithms|1
+Object detection with deep learning: A review|Sentiment analysis on social media|0
+Object detection|Unitbox: An advanced object detection network|1
+Object detection|Probabilistic topic models|0
+Relation networks for object detection|Recent advances in deep learning for object detection|1
+Relation networks for object detection|A survey on sentiment analysis methods and approach|0
+A review of object detection based on deep learning|Unitbox: An advanced object detection network|1
+A review of object detection based on deep learning|Overview of the face recognition grand challenge|0
+Deep neural networks for object detection|Relation networks for object detection|1
+Deep neural networks for object detection|Deep face recognition: A survey|0
+An empirical study of context in object detection|Efficientdet: Scalable and efficient object detection|1
+An empirical study of context in object detection|[HTML][HTML] Progress in machine translation|0
+You only look once: Unified, real-time object detection|Efficientdet: Scalable and efficient object detection|1
+You only look once: Unified, real-time object detection|Overview of the face recognition grand challenge|0
+A survey on performance metrics for object-detection algorithms|Scale-transferrable object detection|1
+A survey on performance metrics for object-detection algorithms|Comparing and combining sentiment analysis methods|0
+Towards open world object detection|Multiresolution models for object detection|1
+Towards open world object detection|Statistical machine translation|0
+Scale-transferrable object detection|Multiresolution models for object detection|1
+Scale-transferrable object detection|Deep learning for face anti-spoofing: A survey|0
+[PDF][PDF] Robust real-time object detection|Deep neural networks for object detection|1
+[PDF][PDF] Robust real-time object detection|Quantitative analysis of large amounts of journalistic texts using topic modelling|0
+[HTML][HTML] Deep learning for generic object detection: A survey|Scale-transferrable object detection|1
+[HTML][HTML] Deep learning for generic object detection: A survey|[PDF][PDF] The LRC machine translation system|0
+Interactive object detection|CenterNet++ for object detection|1
+Interactive object detection|Arabic named entity recognition from diverse text types|0
+A review of object detection techniques|Scale-transferrable object detection|1
+A review of object detection techniques|Neural machine translation: A review|0
+Scalable, high-quality object detection|A trainable system for object detection|1
+Scalable, high-quality object detection|A survey of named entity recognition and classification|0
+A survey of deep learning-based object detection|[HTML][HTML] Deep learning for generic object detection: A survey|1
+A survey of deep learning-based object detection|Named entity recognition and relation extraction: State-of-the-art|0
+[PDF][PDF] Object detection: an overview|Unitbox: An advanced object detection network|1
+[PDF][PDF] Object detection: an overview|Joint sentiment/topic model for sentiment analysis|0
+Object detection using the statistics of parts|Deep neural networks for object detection|1
+Object detection using the statistics of parts|A new image representation algorithm inspired by image submodality models, redundancy reduction, and learning in biological vision|0
+Imbalance problems in object detection: A review|Towards open world object detection|1
+Imbalance problems in object detection: A review|Neural machine translation by jointly learning to align and translate|0
+A review of object detection based on convolutional neural network|[HTML][HTML] Deep learning for generic object detection: A survey|1
+A review of object detection based on convolutional neural network|Neural machine translation in linear time|0
+Multiresolution models for object detection|Relation networks for object detection|1
+Multiresolution models for object detection|SUMMAC: a text summarization evaluation|0
+Recent progresses on object detection: a brief review|A review of object detection based on deep learning|1
+Recent progresses on object detection: a brief review|Untangling invariant object recognition|0
+CenterNet++ for object detection|Object detection|1
+CenterNet++ for object detection|[BOOK][B] Named entity recognition and resolution in legal text|0
+Face recognition: A literature survey|Overview of the face recognition grand challenge|1
+Face recognition: A literature survey|A framework for named entity recognition in the open domain.|0
+Face recognition: A literature review|Techniques and challenges of face recognition: A critical review|1
+Face recognition: A literature review|A dataset and benchmark for large-scale multi-modal face anti-spoofing|0
+Face recognition systems: A survey|Features and their configuration in face recognition|1
+Face recognition systems: A survey|Object recognition|0
+Face recognition using laplacianfaces|Linear regression for face recognition|1
+Face recognition using laplacianfaces|[PDF][PDF] A statistical approach to machine translation|0
+Understanding face recognition|The FERET evaluation methodology for face-recognition algorithms|1
+Understanding face recognition|Celeba-spoof: Large-scale face anti-spoofing dataset with rich annotations|0
+[PDF][PDF] A survey of face recognition techniques|Face recognition systems: A survey|1
+[PDF][PDF] A survey of face recognition techniques|Neural machine translation by jointly learning to align and translate|0
+Deep face recognition|Face recognition methods & applications|1
+Deep face recognition|'What is this corpus about?': using topic modelling to explore a specialised corpus|0
+Face recognition methods & applications|[PDF][PDF] An introduction to face recognition technology|1
+Face recognition methods & applications|Machine translation|0
+Past, present, and future of face recognition: A review|Techniques and challenges of face recognition: A critical review|1
+Past, present, and future of face recognition: A review|Neural machine translation in linear time|0
+[PDF][PDF] An introduction to face recognition technology|[PDF][PDF] Face recognition using eigenfaces|1
+[PDF][PDF] An introduction to face recognition technology|An empirical study of context in object detection|0
+Three-dimensional face recognition|Face recognition: A literature survey|1
+Three-dimensional face recognition|[PDF][PDF] The Order of Things. A Study on Topic Modelling of Literary Texts.|0
+Deep face recognition: A survey|Face recognition across pose: A review|1
+Deep face recognition: A survey|Selective search for object recognition|0
+[BOOK][B] Quo vadis face recognition?|[BOOK][B] Quo vadis face recognition?|1
+[BOOK][B] Quo vadis face recognition?|[PDF][PDF] Statistical machine translation|0
+Face recognition: Past, present and future (a review)|Face recognition in subspaces|1
+Face recognition: Past, present and future (a review)|Sentiment analysis: A combined approach|0
+Face recognition: challenges, achievements and future directions|Techniques and challenges of face recognition: A critical review|1
+Face recognition: challenges, achievements and future directions|[BOOK][B] Machine translation|0
+The FERET evaluation methodology for face-recognition algorithms|Face recognition from one example view|1
+The FERET evaluation methodology for face-recognition algorithms|[PDF][PDF] Machine translation approaches: issues and challenges|0
+Face recognition from long-term observations|[PDF][PDF] A feature based approach to face recognition|1
+Face recognition from long-term observations|Text summarization using unsupervised deep learning|0
+When face recognition fails.|Past, present, and future of face recognition: A review|1
+When face recognition fails.|A survey of deep learning-based object detection|0
+[PDF][PDF] Face recognition using eigenfaces|Multiresolution face recognition|1
+[PDF][PDF] Face recognition using eigenfaces|Models of object recognition|0
+Face recognition in subspaces|Face recognition from long-term observations|1
+Face recognition in subspaces|Sentiment analysis on social media|0
+Features and their configuration in face recognition|Face recognition: Past, present and future (a review)|1
+Features and their configuration in face recognition|Object recognition|0
+Techniques and challenges of face recognition: A critical review|Face recognition systems: A survey|1
+Techniques and challenges of face recognition: A critical review|Multiresolution models for object detection|0
+Face recognition across pose: A review|[PDF][PDF] A survey of face recognition techniques|1
+Face recognition across pose: A review|A review of object detection techniques|0
+[PDF][PDF] A feature based approach to face recognition|Techniques and challenges of face recognition: A critical review|1
+[PDF][PDF] A feature based approach to face recognition|[PDF][PDF] A survey on automatic text summarization|0
+Multiresolution face recognition|Understanding face recognition|1
+Multiresolution face recognition|[PDF][PDF] LDA-based topic modelling in text sentiment classification: An empirical analysis.|0
+[BOOK][B] Seeing: The computational approach to biological vision|The knowledge used in vision and where it comes from|1
+[BOOK][B] Seeing: The computational approach to biological vision|[PDF][PDF] Object detection: an overview|0
+[HTML][HTML] Bio-inspired computer vision: Towards a synergistic approach of artificial and biological vision|[HTML][HTML] Chemistry and biology of vision|1
+[HTML][HTML] Bio-inspired computer vision: Towards a synergistic approach of artificial and biological vision|Object recognition|0
+[HTML][HTML] Deep learning—Using machine learning to study biological vision|Computer vision imaging based on artificial intelligence|1
+[HTML][HTML] Deep learning—Using machine learning to study biological vision|Software framework for topic modelling with large corpora|0
+How biological vision succeeds in the physical world|Fabric defect detection based on biological vision modeling|1
+How biological vision succeeds in the physical world|[PDF][PDF] Automatic text summarization (the state of the art 2007 and new challenges)|0
+Common principles of image acquisition systems and biological vision|[HTML][HTML] Chemistry and biology of vision|1
+Common principles of image acquisition systems and biological vision|Statistical machine translation|0
+Deep neural networks: a new framework for modeling biological vision and brain information processing|A solution of the figure-ground problem for biological vision|1
+Deep neural networks: a new framework for modeling biological vision and brain information processing|[PDF][PDF] A survey of text summarization extractive techniques|0
+The detection of intensity changes by computer and biological vision systems|Fabric defect detection based on biological vision modeling|1
+The detection of intensity changes by computer and biological vision systems|Meta-teacher for face anti-spoofing|0
+[BOOK][B] Statistical decision theory and biological vision|Given time: Biology, nature and photographic vision|1
+[BOOK][B] Statistical decision theory and biological vision|Applications of topic models|0
+A solution of the figure-ground problem for biological vision|[BOOK][B] Pattern formation in biology, vision and dynamics|1
+A solution of the figure-ground problem for biological vision|Evaluation measures for text summarization|0
+[BOOK][B] An introduction to the biology of vision|The knowledge used in vision and where it comes from|1
+[BOOK][B] An introduction to the biology of vision|[BOOK][B] Statistical machine translation|0
+Fabric defect detection based on biological vision modeling|Polarization vision and its role in biological signaling|1
+Fabric defect detection based on biological vision modeling|Topic models|0
+Nonlinear mechanisms and higher-order statistics in biological vision and electronic image processing: review and perspectives|Parallel integration of vision modules|1
+Nonlinear mechanisms and higher-order statistics in biological vision and electronic image processing: review and perspectives|Using appraisal groups for sentiment analysis|0
+On the role of object-specific features for real world object recognition in biological vision|How biological vision succeeds in the physical world|1
+On the role of object-specific features for real world object recognition in biological vision|[BOOK][B] Automatic text summarization|0
+[HTML][HTML] Chemistry and biology of vision|Parallel integration of vision modules|1
+[HTML][HTML] Chemistry and biology of vision|[PDF][PDF] Named entity recognition with a maximum entropy approach|0
+Approaches of artificial intelligence in biomedical image processing: A leading tool between computer vision & biological vision|Approaches of artificial intelligence in biomedical image processing: A leading tool between computer vision & biological vision|1
+Approaches of artificial intelligence in biomedical image processing: A leading tool between computer vision & biological vision|Face anti-spoofing methods|0
+A new image representation algorithm inspired by image submodality models, redundancy reduction, and learning in biological vision|Bio-inspired vision|1
+A new image representation algorithm inspired by image submodality models, redundancy reduction, and learning in biological vision|Recent advances in deep learning for object detection|0
+An Approach for Target Detection and Extraction Based on Biological Vision.|A solution of the figure-ground problem for biological vision|1
+An Approach for Target Detection and Extraction Based on Biological Vision.|Face recognition from long-term observations|0
+[BOOK][B] Pattern formation in biology, vision and dynamics|Computer vision imaging based on artificial intelligence|1
+[BOOK][B] Pattern formation in biology, vision and dynamics|'What is this corpus about?': using topic modelling to explore a specialised corpus|0
+Bio-inspired vision|A biological vision inspired framework for image enhancement in poor visibility conditions|1
+Bio-inspired vision|Scale-transferrable object detection|0
+Polarization vision and its role in biological signaling|Spike-based image processing: Can we reproduce biological vision in hardware?|1
+Polarization vision and its role in biological signaling|Learning to translate in real-time with neural machine translation|0
+Computer vision imaging based on artificial intelligence|Spike-based image processing: Can we reproduce biological vision in hardware?|1
+Computer vision imaging based on artificial intelligence|[PDF][PDF] Sentiment analysis and subjectivity.|0
+Parallel integration of vision modules|[BOOK][B] An introduction to the biology of vision|1
+Parallel integration of vision modules|Statistical machine translation|0
+[BOOK][B] Biologically inspired computer vision: fundamentals and applications|Deep neural networks: a new framework for modeling biological vision and brain information processing|1
+[BOOK][B] Biologically inspired computer vision: fundamentals and applications|A survey on sentiment analysis methods and approach|0
+Velocity likelihoods in biological and machine vision|Nonlinear mechanisms and higher-order statistics in biological vision and electronic image processing: review and perspectives|1
+Velocity likelihoods in biological and machine vision|Text summarization: a brief review|0
+Given time: Biology, nature and photographic vision|Given time: Biology, nature and photographic vision|1
+Given time: Biology, nature and photographic vision|CenterNet++ for object detection|0
+The knowledge used in vision and where it comes from|[HTML][HTML] Recurrent neural networks can explain flexible trading of speed and accuracy in biological vision|1
+The knowledge used in vision and where it comes from|Named entity recognition: fallacies, challenges and opportunities|0
+Vision by man and machine|[BOOK][B] Statistical decision theory and biological vision|1
+Vision by man and machine|[PDF][PDF] A review on sentiment analysis methodologies, practices and applications|0
+Face anti-spoofing: Model matters, so does data|Learning deep models for face anti-spoofing: Binary or auxiliary supervision|1
+Face anti-spoofing: Model matters, so does data|Machine translation: A brief history|0
+Learning deep models for face anti-spoofing: Binary or auxiliary supervision|Cross‐ethnicity face anti‐spoofing recognition challenge: A review|1
+Learning deep models for face anti-spoofing: Binary or auxiliary supervision|Face recognition: Past, present and future (a review)|0
+Learn convolutional neural network for face anti-spoofing|Learning deep models for face anti-spoofing: Binary or auxiliary supervision|1
+Learn convolutional neural network for face anti-spoofing|[PDF][PDF] Named entity recognition|0
+Context based face anti-spoofing|Face anti-spoofing with multifeature videolet aggregation|1
+Context based face anti-spoofing|A framework for named entity recognition in the open domain.|0
+Face anti-spoofing with human material perception|Face anti-spoofing using patch and depth-based CNNs|1
+Face anti-spoofing with human material perception|Three-dimensional face recognition|0
+Face anti-spoofing methods|Face anti-spoofing methods|1
+Face anti-spoofing methods|[PDF][PDF] Topic modelling methodology: its use in information systems and other managerial disciplines|0
+Face anti-spoofing based on color texture analysis|Learn convolutional neural network for face anti-spoofing|1
+Face anti-spoofing based on color texture analysis|Sentiment analysis: A review and comparative analysis of web services|0
+On the effectiveness of local binary patterns in face anti-spoofing|Cross‐ethnicity face anti‐spoofing recognition challenge: A review|1
+On the effectiveness of local binary patterns in face anti-spoofing|[PDF][PDF] A comprehensive survey on text summarization systems|0
+An original face anti-spoofing approach using partial convolutional neural network|Deep learning for face anti-spoofing: A survey|1
+An original face anti-spoofing approach using partial convolutional neural network|[BOOK][B] Sentiment analysis: Mining opinions, sentiments, and emotions|0
+Cross‐ethnicity face anti‐spoofing recognition challenge: A review|Deep learning for face anti-spoofing: A survey|1
+Cross‐ethnicity face anti‐spoofing recognition challenge: A review|Three-dimensional face recognition|0
+Deep learning for face anti-spoofing: A survey|Deep learning for face anti-spoofing: A survey|1
+Deep learning for face anti-spoofing: A survey|Neural architectures for named entity recognition|0
+Face anti-spoofing using patch and depth-based CNNs|Face anti-spoofing: Model matters, so does data|1
+Face anti-spoofing using patch and depth-based CNNs|Google's multilingual neural machine translation system: Enabling zero-shot translation|0
+Generalized face anti-spoofing by detecting pulse from face videos|Celeba-spoof: Large-scale face anti-spoofing dataset with rich annotations|1
+Generalized face anti-spoofing by detecting pulse from face videos|Computer vision imaging based on artificial intelligence|0
+Meta-teacher for face anti-spoofing|Face anti-spoofing methods|1
+Meta-teacher for face anti-spoofing|Common principles of image acquisition systems and biological vision|0
+Deep spatial gradient and temporal depth learning for face anti-spoofing|Face anti-spoofing using patch and depth-based CNNs|1
+Deep spatial gradient and temporal depth learning for face anti-spoofing|Named entity recognition|0
+Searching central difference convolutional networks for face anti-spoofing|Meta-teacher for face anti-spoofing|1
+Searching central difference convolutional networks for face anti-spoofing|[PDF][PDF] Named entity recognition: Exploring features.|0
+On disentangling spoof trace for generic face anti-spoofing|Deep spatial gradient and temporal depth learning for face anti-spoofing|1
+On disentangling spoof trace for generic face anti-spoofing|Learning to translate in real-time with neural machine translation|0
+Face anti-spoofing with multifeature videolet aggregation|Regularized fine-grained meta face anti-spoofing|1
+Face anti-spoofing with multifeature videolet aggregation|Face recognition: A literature review|0
+Celeba-spoof: Large-scale face anti-spoofing dataset with rich annotations|Face anti-spoofing with multifeature videolet aggregation|1
+Celeba-spoof: Large-scale face anti-spoofing dataset with rich annotations|Deep neural networks for object detection|0
+Learning meta pattern for face anti-spoofing|Face anti-spoofing: Multi-spectral approach|1
+Learning meta pattern for face anti-spoofing|Dual learning for machine translation|0
+A dataset and benchmark for large-scale multi-modal face anti-spoofing|Face anti-spoofing based on general image quality assessment|1
+A dataset and benchmark for large-scale multi-modal face anti-spoofing|Object detection|0
+A performance evaluation of convolutional neural networks for face anti spoofing|Face anti-spoofing based on general image quality assessment|1
+A performance evaluation of convolutional neural networks for face anti spoofing|Object detection using the statistics of parts|0
+Face anti-spoofing: Multi-spectral approach|Learning deep models for face anti-spoofing: Binary or auxiliary supervision|1
+Face anti-spoofing: Multi-spectral approach|An Approach for Target Detection and Extraction Based on Biological Vision.|0
+Multi-modal face anti-spoofing based on central difference networks|Face anti-spoofing using patch and depth-based CNNs|1
+Multi-modal face anti-spoofing based on central difference networks|Visualizing topic models|0
+Unsupervised domain adaptation for face anti-spoofing|Cross‐ethnicity face anti‐spoofing recognition challenge: A review|1
+Unsupervised domain adaptation for face anti-spoofing|Visual object recognition|0
+Regularized fine-grained meta face anti-spoofing|Learning deep models for face anti-spoofing: Binary or auxiliary supervision|1
+Regularized fine-grained meta face anti-spoofing|[HTML][HTML] Review of automatic text summarization techniques & methods|0
+Casia-surf: A large-scale multi-modal benchmark for face anti-spoofing|Unsupervised domain adaptation for face anti-spoofing|1
+Casia-surf: A large-scale multi-modal benchmark for face anti-spoofing|Is machine translation ready yet?|0
+Visual object recognition|Does object recognition work for everyone?|1
+Visual object recognition|On disentangling spoof trace for generic face anti-spoofing|0
+Object recognition|Recurrent convolutional neural network for object recognition|1
+Object recognition|[CITATION][C] Sentiment analysis: A perspective on its past, present and future|0
+Color-based object recognition|Pictorial structures for object recognition|1
+Color-based object recognition|Face anti-spoofing: Model matters, so does data|0
+Models of object recognition|Object recognition using vision and touch|1
+Models of object recognition|[BOOK][B] Pattern formation in biology, vision and dynamics|0
+[BOOK][B] Visual object recognition|Recurrent convolutional neural network for object recognition|1
+[BOOK][B] Visual object recognition|Text summarization from legal documents: a survey|0
+Three-dimensional object recognition|Models of object recognition|1
+Three-dimensional object recognition|Statistical machine translation|0
+Computational strategies for object recognition|Untangling invariant object recognition|1
+Computational strategies for object recognition|You only look once: Unified, real-time object detection|0
+Object recognition from local scale-invariant features|Object recognition|1
+Object recognition from local scale-invariant features|When face recognition fails.|0
+[BOOK][B] Object recognition: fundamentals and case studies|Does object recognition work for everyone?|1
+[BOOK][B] Object recognition: fundamentals and case studies|A bibliometric analysis of topic modelling studies (2000–2017)|0
+Object recognition|Object recognition|1
+Object recognition|Automatic text summarization using a machine learning approach|0
+[HTML][HTML] Why is real-world visual object recognition hard?|Untangling invariant object recognition|1
+[HTML][HTML] Why is real-world visual object recognition hard?|[PDF][PDF] Unsupervised topic modelling for multi-party spoken discourse|0
+Pictorial structures for object recognition|[PDF][PDF] Learning Image Components for Object Recognition.|1
+Pictorial structures for object recognition|A survey on sentiment analysis methods and approach|0
+Learning models for object recognition|Visual object recognition: do we know more now than we did 20 years ago?|1
+Learning models for object recognition|Bio-inspired vision|0
+Does object recognition work for everyone?|[BOOK][B] Object recognition: fundamentals and case studies|1
+Does object recognition work for everyone?|[HTML][HTML] Smart literature review: a practical topic modelling approach to exploratory literature review|0
+Visual object recognition: do we know more now than we did 20 years ago?|[PDF][PDF] Learning Image Components for Object Recognition.|1
+Visual object recognition: do we know more now than we did 20 years ago?|[HTML][HTML] Review of automatic text summarization techniques & methods|0
+The uncrowded window of object recognition|Does object recognition work for everyone?|1
+The uncrowded window of object recognition|A survey on sentiment analysis methods and approach|0
+HFirst: A temporal approach to object recognition|Object recognition|1
+HFirst: A temporal approach to object recognition|Text summarization from legal documents: a survey|0
+[PDF][PDF] Learning Image Components for Object Recognition.|The role of context in object recognition|1
+[PDF][PDF] Learning Image Components for Object Recognition.|Overview of named entity recognition|0
+Selective search for object recognition|[HTML][HTML] Why is real-world visual object recognition hard?|1
+Selective search for object recognition|Approaches of artificial intelligence in biomedical image processing: A leading tool between computer vision & biological vision|0
+Object recognition using vision and touch|[BOOK][B] Object recognition: fundamentals and case studies|1
+Object recognition using vision and touch|Learning deep models for face anti-spoofing: Binary or auxiliary supervision|0
+Recurrent convolutional neural network for object recognition|The uncrowded window of object recognition|1
+Recurrent convolutional neural network for object recognition|A survey on extractive text summarization|0
+Object recognition with gradient-based learning|The uncrowded window of object recognition|1
+Object recognition with gradient-based learning|Deep face recognition|0
+Object recognition|Three-dimensional object recognition|1
+Object recognition|[PDF][PDF] More efficient topic modelling through a noun only approach|0
+[PDF][PDF] Named entity recognition approaches|Named entity recognition and relation extraction: State-of-the-art|1
+[PDF][PDF] Named entity recognition approaches|[PDF][PDF] A comprehensive survey on text summarization systems|0
+A survey of named entity recognition and classification|[PDF][PDF] Named entity recognition|1
+A survey of named entity recognition and classification|[BOOK][B] Translation engines: techniques for machine translation|0
+Named entity recognition|[PDF][PDF] Named entity recognition using an HMM-based chunk tagger|1
+Named entity recognition|Improving abstraction in text summarization|0
+[PDF][PDF] Evaluating and combining name entity recognition systems|Arabic named entity recognition from diverse text types|1
+[PDF][PDF] Evaluating and combining name entity recognition systems|Automatic text summarization using a machine learning approach|0
+[PDF][PDF] Named entity recognition without gazetteers|A survey on deep learning for named entity recognition|1
+[PDF][PDF] Named entity recognition without gazetteers|Using appraisal groups for sentiment analysis|0
+[PDF][PDF] Named entity recognition: A literature survey|Named entity recognition in query|1
+[PDF][PDF] Named entity recognition: A literature survey|Towards open world object detection|0
+Named entity recognition: fallacies, challenges and opportunities|Neural architectures for named entity recognition|1
+Named entity recognition: fallacies, challenges and opportunities|[HTML][HTML] Sentiment analysis using product review data|0
+[PDF][PDF] Named entity recognition in tweets: an experimental study|[PDF][PDF] Named entity recognition approaches|1
+[PDF][PDF] Named entity recognition in tweets: an experimental study|[PDF][PDF] An evaluation of topic modelling techniques for twitter|0
+A survey on deep learning for named entity recognition|[PDF][PDF] Named entity recognition using an HMM-based chunk tagger|1
+A survey on deep learning for named entity recognition|[PDF][PDF] A statistical approach to machine translation|0
+Named entity recognition and relation extraction: State-of-the-art|[PDF][PDF] Nested named entity recognition|1
+Named entity recognition and relation extraction: State-of-the-art|A survey on performance metrics for object-detection algorithms|0
+[PDF][PDF] Named entity recognition through classifier combination|NERA: Named entity recognition for Arabic|1
+[PDF][PDF] Named entity recognition through classifier combination|Topic modelling for qualitative studies|0
+Named entity recognition in query|Named entity recognition: fallacies, challenges and opportunities|1
+Named entity recognition in query|Face anti-spoofing with multifeature videolet aggregation|0
+[PDF][PDF] Named entity recognition: Exploring features.|Arabic named entity recognition from diverse text types|1
+[PDF][PDF] Named entity recognition: Exploring features.|[BOOK][B] Biologically inspired computer vision: fundamentals and applications|0
+[PDF][PDF] Nested named entity recognition|A survey on recent advances in named entity recognition from deep learning models|1
+[PDF][PDF] Nested named entity recognition|[HTML][HTML] Progress in machine translation|0
+A survey on recent advances in named entity recognition from deep learning models|Overview of named entity recognition|1
+A survey on recent advances in named entity recognition from deep learning models|Imbalance problems in object detection: A review|0
+[PDF][PDF] Person name entity recognition for Arabic|Named entity recognition|1
+[PDF][PDF] Person name entity recognition for Arabic|Deep face recognition|0
+[PDF][PDF] Nerd: evaluating named entity recognition tools in the web of data|NeuroNER: an easy-to-use program for named-entity recognition based on neural networks|1
+[PDF][PDF] Nerd: evaluating named entity recognition tools in the web of data|Deep face recognition|0
+[PDF][PDF] Chinese named entity recognition with conditional probabilistic models|[BOOK][B] Named entity recognition and resolution in legal text|1
+[PDF][PDF] Chinese named entity recognition with conditional probabilistic models|[BOOK][B] Sentiment analysis and opinion mining|0
+[PDF][PDF] Named entity recognition using an HMM-based chunk tagger|[PDF][PDF] Person name entity recognition for Arabic|1
+[PDF][PDF] Named entity recognition using an HMM-based chunk tagger|A comprehensive review of object detection with deep learning|0
+Recent named entity recognition and classification techniques: a systematic review|A framework for named entity recognition in the open domain.|1
+Recent named entity recognition and classification techniques: a systematic review|Visual object recognition: do we know more now than we did 20 years ago?|0
+A framework for named entity recognition in the open domain.|Named entity recognition in query|1
+A framework for named entity recognition in the open domain.|[HTML][HTML] Smart literature review: a practical topic modelling approach to exploratory literature review|0
+NeuroNER: an easy-to-use program for named-entity recognition based on neural networks|NERA: Named entity recognition for Arabic|1
+NeuroNER: an easy-to-use program for named-entity recognition based on neural networks|Color-based object recognition|0
+NERA: Named entity recognition for Arabic|A framework for named entity recognition in the open domain.|1
+NERA: Named entity recognition for Arabic|What is the best multi-stage architecture for object recognition?|0
+Arabic named entity recognition from diverse text types|[PDF][PDF] Person name entity recognition for Arabic|1
+Arabic named entity recognition from diverse text types|Quantitative analysis of large amounts of journalistic texts using topic modelling|0
+Deep active learning for named entity recognition|[PDF][PDF] Named entity recognition in tweets: an experimental study|1
+Deep active learning for named entity recognition|Re-evaluating evaluation in text summarization|0
+[PDF][PDF] Named entity recognition with a maximum entropy approach|[PDF][PDF] Named entity recognition: Exploring features.|1
+[PDF][PDF] Named entity recognition with a maximum entropy approach|Google's neural machine translation system: Bridging the gap between human and machine translation|0
+Sentiment analysis: An overview from linguistics|[BOOK][B] A practical guide to sentiment analysis|1
+Sentiment analysis: An overview from linguistics|Spike-based image processing: Can we reproduce biological vision in hardware?|0
+[HTML][HTML] A survey on sentiment analysis methods, applications, and challenges|Sentiment analysis: A combined approach|1
+[HTML][HTML] A survey on sentiment analysis methods, applications, and challenges|[PDF][PDF] LDA-based topic modelling in text sentiment classification: An empirical analysis.|0
+[HTML][HTML] A survey on sentiment analysis challenges|Sentiment analysis|1
+[HTML][HTML] A survey on sentiment analysis challenges|[BOOK][B] Machine translation|0
+Sentiment analysis: A combined approach|Sentiment analysis: A review and comparative analysis of web services|1
+Sentiment analysis: A combined approach|Imbalance problems in object detection: A review|0
+Sentiment analysis: a comparative study on different approaches|Joint sentiment/topic model for sentiment analysis|1
+Sentiment analysis: a comparative study on different approaches|Recent automatic text summarization techniques: a survey|0
+Using appraisal groups for sentiment analysis|Sentiment analysis in the news|1
+Using appraisal groups for sentiment analysis|[PDF][PDF] Studying the history of ideas using topic models|0
+[PDF][PDF] Sentiment analysis and subjectivity.|Sentiment analysis: A review and comparative analysis of web services|1
+[PDF][PDF] Sentiment analysis and subjectivity.|Deep active learning for named entity recognition|0
+Sentiment analysis in the news|Sentiment analysis|1
+Sentiment analysis in the news|A biological vision inspired framework for image enhancement in poor visibility conditions|0
+Sentiment analysis|Sentiment analysis: a comparative study on different approaches|1
+Sentiment analysis|Neural machine translation with reconstruction|0
+Survey on aspect-level sentiment analysis|Sentiment analysis|1
+Survey on aspect-level sentiment analysis|[PDF][PDF] Unsupervised topic modelling for multi-party spoken discourse|0
+[CITATION][C] Sentiment analysis: A perspective on its past, present and future|A comprehensive survey on sentiment analysis: Approaches, challenges and trends|1
+[CITATION][C] Sentiment analysis: A perspective on its past, present and future|Interactive object detection|0
+A survey of multimodal sentiment analysis|[CITATION][C] Sentiment analysis: A perspective on its past, present and future|1
+A survey of multimodal sentiment analysis|A dataset and benchmark for large-scale multi-modal face anti-spoofing|0
+Joint sentiment/topic model for sentiment analysis|Sentiment analysis: A review and comparative analysis of web services|1
+Joint sentiment/topic model for sentiment analysis|Towards open world object detection|0
+[HTML][HTML] Sentiment analysis using product review data|[PDF][PDF] A review on sentiment analysis methodologies, practices and applications|1
+[HTML][HTML] Sentiment analysis using product review data|Object recognition|0
+A comprehensive survey on sentiment analysis: Approaches, challenges and trends|Survey on aspect-level sentiment analysis|1
+A comprehensive survey on sentiment analysis: Approaches, challenges and trends|Multi-modal face anti-spoofing based on central difference networks|0
+[BOOK][B] Sentiment analysis: Mining opinions, sentiments, and emotions|[HTML][HTML] Sentiment analysis algorithms and applications: A survey|1
+[BOOK][B] Sentiment analysis: Mining opinions, sentiments, and emotions|Features and their configuration in face recognition|0
+A survey of sentiment analysis in social media|Challenges in sentiment analysis|1
+A survey of sentiment analysis in social media|Neural architectures for named entity recognition|0
+A survey on sentiment analysis methods and approach|Sentiment analysis: a comparative study on different approaches|1
+A survey on sentiment analysis methods and approach|Quantitative analysis of large amounts of journalistic texts using topic modelling|0
+Sentiment analysis on social media|Sentiment embeddings with applications to sentiment analysis|1
+Sentiment analysis on social media|A survey on deep learning for named entity recognition|0
+An introduction to concept-level sentiment analysis|Joint sentiment/topic model for sentiment analysis|1
+An introduction to concept-level sentiment analysis|Recent progresses on object detection: a brief review|0
+[PDF][PDF] A review on sentiment analysis methodologies, practices and applications|A survey of multimodal sentiment analysis|1
+[PDF][PDF] A review on sentiment analysis methodologies, practices and applications|Meta-teacher for face anti-spoofing|0
+Sentiment analysis techniques in recent works|Sentiment analysis|1
+Sentiment analysis techniques in recent works|[PDF][PDF] Topic Modelling with Word Embeddings.|0
+[BOOK][B] Sentiment analysis and opinion mining|Sentiment analysis: a comparative study on different approaches|1
+[BOOK][B] Sentiment analysis and opinion mining|Understanding face recognition|0
+Automatic text summarization: A comprehensive survey|A survey of text summarization techniques|1
+Automatic text summarization: A comprehensive survey|Named entity recognition: fallacies, challenges and opportunities|0
+A survey automatic text summarization|A survey automatic text summarization|1
+A survey automatic text summarization|Efficientdet: Scalable and efficient object detection|0
+Recent automatic text summarization techniques: a survey|[PDF][PDF] A survey of text summarization extractive techniques|1
+Recent automatic text summarization techniques: a survey|Face anti-spoofing methods|0
+Text summarization with pretrained encoders|[BOOK][B] Advances in automatic text summarization|1
+Text summarization with pretrained encoders|Unsupervised domain adaptation for face anti-spoofing|0
+[HTML][HTML] Review of automatic text summarization techniques & methods|[PDF][PDF] A comprehensive survey on text summarization systems|1
+[HTML][HTML] Review of automatic text summarization techniques & methods|[BOOK][B] Visual object recognition|0
+Text summarization: a brief review|Text summarization with pretrained encoders|1
+Text summarization: a brief review|[PDF][PDF] The Order of Things. A Study on Topic Modelling of Literary Texts.|0
+Evaluation measures for text summarization|Text summarization with pretrained encoders|1
+Evaluation measures for text summarization|A dataset and benchmark for large-scale multi-modal face anti-spoofing|0
+[PDF][PDF] Automatic text summarization|SUMMAC: a text summarization evaluation|1
+[PDF][PDF] Automatic text summarization|An Approach for Target Detection and Extraction Based on Biological Vision.|0
+[PDF][PDF] A survey of text summarization extractive techniques|[BOOK][B] Advances in automatic text summarization|1
+[PDF][PDF] A survey of text summarization extractive techniques|Statistical machine translation|0
+Automatic text summarization: Past, present and future|Text summarization using unsupervised deep learning|1
+Automatic text summarization: Past, present and future|[PDF][PDF] How does the brain solve visual object recognition?|0
+SUMMAC: a text summarization evaluation|Improving abstraction in text summarization|1
+SUMMAC: a text summarization evaluation|Face anti-spoofing with multifeature videolet aggregation|0
+[BOOK][B] Automatic text summarization|SUMMAC: a text summarization evaluation|1
+[BOOK][B] Automatic text summarization|Searching central difference convolutional networks for face anti-spoofing|0
+Text summarization techniques: a brief survey|Wikihow: A large scale text summarization dataset|1
+Text summarization techniques: a brief survey|What is the best multi-stage architecture for object recognition?|0
+[PDF][PDF] A survey on automatic text summarization|SUMMAC: a text summarization evaluation|1
+[PDF][PDF] A survey on automatic text summarization|Visual object recognition|0
+A new approach to unsupervised text summarization|[PDF][PDF] Automatic text summarization (the state of the art 2007 and new challenges)|1
+A new approach to unsupervised text summarization|Three-dimensional face recognition|0
+A survey of automatic text summarization: Progress, process and challenges|[PDF][PDF] A comprehensive survey on text summarization systems|1
+A survey of automatic text summarization: Progress, process and challenges|Face recognition in subspaces|0
+Automatic text summarization using a machine learning approach|A new approach to unsupervised text summarization|1
+Automatic text summarization using a machine learning approach|Face recognition from long-term observations|0
+Text summarization from legal documents: a survey|A survey of automatic text summarization: Progress, process and challenges|1
+Text summarization from legal documents: a survey|Bio-inspired vision|0
+[PDF][PDF] A comprehensive survey on text summarization systems|SUMMAC: a text summarization evaluation|1
+[PDF][PDF] A comprehensive survey on text summarization systems|Color-based object recognition|0
+Re-evaluating evaluation in text summarization|Automatic text summarization: A comprehensive survey|1
+Re-evaluating evaluation in text summarization|Efficientdet: Scalable and efficient object detection|0
+Improving abstraction in text summarization|Text summarization from legal documents: a survey|1
+Improving abstraction in text summarization|[PDF][PDF] Named entity recognition using an HMM-based chunk tagger|0
+Text summarization using unsupervised deep learning|Recent automatic text summarization techniques: a survey|1
+Text summarization using unsupervised deep learning|Statistical machine translation|0
+A survey on extractive text summarization|Automatic text summarization using a machine learning approach|1
+A survey on extractive text summarization|Scale-transferrable object detection|0
+Wikihow: A large scale text summarization dataset|A survey of automatic text summarization: Progress, process and challenges|1
+Wikihow: A large scale text summarization dataset|Joint sentiment/topic model for sentiment analysis|0
+Automatic text summarization: What has been done and what has to be done|[PDF][PDF] A survey of text summarization extractive techniques|1
+Automatic text summarization: What has been done and what has to be done|A survey on sentiment analysis methods and approach|0
+Statistical machine translation|Dual learning for machine translation|1
+Statistical machine translation|On the effectiveness of local binary patterns in face anti-spoofing|0
+[BOOK][B] Statistical machine translation|[PDF][PDF] Machine translation approaches: issues and challenges|1
+[BOOK][B] Statistical machine translation|Features and their configuration in face recognition|0
+[PDF][PDF] A statistical approach to machine translation|[PDF][PDF] Machine translation: A concise history|1
+[PDF][PDF] A statistical approach to machine translation|[BOOK][B] Sentiment analysis: Mining opinions, sentiments, and emotions|0
+[BOOK][B] Machine translation|[PDF][PDF] A survey of machine translation: Its history, current status and future prospects|1
+[BOOK][B] Machine translation|Visual object recognition: do we know more now than we did 20 years ago?|0
+Neural machine translation: A review|[PDF][PDF] Machine translation: A concise history|1
+Neural machine translation: A review|Sentiment embeddings with applications to sentiment analysis|0
+Google's neural machine translation system: Bridging the gap between human and machine translation|[BOOK][B] Statistical machine translation|1
+Google's neural machine translation system: Bridging the gap between human and machine translation|Object recognition testing: statistical considerations|0
+Neural machine translation by jointly learning to align and translate|[BOOK][B] Machine translation|1
+Neural machine translation by jointly learning to align and translate|Comparing and combining sentiment analysis methods|0
+Machine translation|Neural machine translation advised by statistical machine translation|1
+Machine translation|[PDF][PDF] Named entity recognition: A literature survey|0
+Machine translation: A brief history|[BOOK][B] Translation engines: techniques for machine translation|1
+Machine translation: A brief history|[PDF][PDF] Automatic text summarization|0
+Approaches to machine translation|Unsupervised neural machine translation|1
+Approaches to machine translation|Unitbox: An advanced object detection network|0
+[PDF][PDF] Statistical machine translation|Machine translation|1
+[PDF][PDF] Statistical machine translation|[PDF][PDF] Robust real-time object detection|0
+[BOOK][B] Machine translation|Statistical machine translation|1
+[BOOK][B] Machine translation|Topic modelling meets deep neural networks: A survey|0
+Dual learning for machine translation|[PDF][PDF] A survey of machine translation: Its history, current status and future prospects|1
+Dual learning for machine translation|[PDF][PDF] Named entity recognition approaches|0
+[BOOK][B] Neural machine translation|[PDF][PDF] A survey of machine translation: Its history, current status and future prospects|1
+[BOOK][B] Neural machine translation|[BOOK][B] Automatic text summarization|0
+[PDF][PDF] Machine translation: A concise history|[PDF][PDF] A statistical approach to machine translation|1
+[PDF][PDF] Machine translation: A concise history|Applications of topic models|0
+[BOOK][B] Translation engines: techniques for machine translation|[BOOK][B] Machine translation|1
+[BOOK][B] Translation engines: techniques for machine translation|[PDF][PDF] A survey of text summarization extractive techniques|0
+[PDF][PDF] Grammatical machine translation|Neural machine translation with reconstruction|1
+[PDF][PDF] Grammatical machine translation|How biological vision succeeds in the physical world|0
+Unsupervised neural machine translation|Machine translation|1
+Unsupervised neural machine translation|Face recognition using laplacianfaces|0
+Neural machine translation in linear time|[PDF][PDF] A statistical approach to machine translation|1
+Neural machine translation in linear time|A survey of multimodal sentiment analysis|0
+[PDF][PDF] Machine translation approaches: issues and challenges|[PDF][PDF] The LRC machine translation system|1
+[PDF][PDF] Machine translation approaches: issues and challenges|Learning meta pattern for face anti-spoofing|0
+Google's multilingual neural machine translation system: Enabling zero-shot translation|Neural machine translation by jointly learning to align and translate|1
+Google's multilingual neural machine translation system: Enabling zero-shot translation|Face recognition: A literature survey|0
+[PDF][PDF] The LRC machine translation system|Dual learning for machine translation|1
+[PDF][PDF] The LRC machine translation system|Text summarization using unsupervised deep learning|0
+[BOOK][B] Machine translation: Its scope and limits|[BOOK][B] Machine translation: Its scope and limits|1
+[BOOK][B] Machine translation: Its scope and limits|A survey on recent advances in named entity recognition from deep learning models|0
+Making sense of neural machine translation|[PDF][PDF] A survey of machine translation: Its history, current status and future prospects|1
+Making sense of neural machine translation|[HTML][HTML] Sentiment analysis using product review data|0
+Neural machine translation with reconstruction|Unsupervised neural machine translation|1
+Neural machine translation with reconstruction|Face recognition methods & applications|0
+Neural machine translation advised by statistical machine translation|[BOOK][B] Machine translation|1
+Neural machine translation advised by statistical machine translation|Topic modeling: a comprehensive review|0
+Learning to translate in real-time with neural machine translation|Google's multilingual neural machine translation system: Enabling zero-shot translation|1
+Learning to translate in real-time with neural machine translation|[BOOK][B] Advances in automatic text summarization|0
+Is machine translation ready yet?|[BOOK][B] Machine translation: Its scope and limits|1
+Is machine translation ready yet?|HFirst: A temporal approach to object recognition|0
+[PDF][PDF] A survey of machine translation: Its history, current status and future prospects|Making sense of neural machine translation|1
+[PDF][PDF] A survey of machine translation: Its history, current status and future prospects|On the effectiveness of local binary patterns in face anti-spoofing|0
+[HTML][HTML] Smart literature review: a practical topic modelling approach to exploratory literature review|[PDF][PDF] Studying the history of ideas using topic models|1
+[HTML][HTML] Smart literature review: a practical topic modelling approach to exploratory literature review|Regularized fine-grained meta face anti-spoofing|0
+Topic modelling for qualitative studies|Topic modelling for short text|1
+Topic modelling for qualitative studies|[PDF][PDF] A review on sentiment analysis methodologies, practices and applications|0
+[PDF][PDF] A text mining research based on LDA topic modelling|[PDF][PDF] Unsupervised topic modelling for multi-party spoken discourse|1
+[PDF][PDF] A text mining research based on LDA topic modelling|An original face anti-spoofing approach using partial convolutional neural network|0
+'What is this corpus about?': using topic modelling to explore a specialised corpus|[PDF][PDF] Unsupervised topic modelling for multi-party spoken discourse|1
+'What is this corpus about?': using topic modelling to explore a specialised corpus|Neural machine translation in linear time|0
+The utility of topic modelling for discourse studies: A critical evaluation|Quantitative analysis of large amounts of journalistic texts using topic modelling|1
+The utility of topic modelling for discourse studies: A critical evaluation|On disentangling spoof trace for generic face anti-spoofing|0
+Topic models|The utility of topic modelling for discourse studies: A critical evaluation|1
+Topic models|Evaluation measures for text summarization|0
+[PDF][PDF] More efficient topic modelling through a noun only approach|Clustop: A clustering-based topic modelling algorithm for twitter using word networks|1
+[PDF][PDF] More efficient topic modelling through a noun only approach|Parallel integration of vision modules|0
+A bibliometric analysis of topic modelling studies (2000–2017)|Propaganda identification using topic modelling|1
+A bibliometric analysis of topic modelling studies (2000–2017)|Velocity likelihoods in biological and machine vision|0
+Topic modeling: a comprehensive review|A network approach to topic models|1
+Topic modeling: a comprehensive review|Wikihow: A large scale text summarization dataset|0
+Topic modelling meets deep neural networks: A survey|[PDF][PDF] Topic Modelling with Word Embeddings.|1
+Topic modelling meets deep neural networks: A survey|Spike-based image processing: Can we reproduce biological vision in hardware?|0
+[PDF][PDF] An evaluation of topic modelling techniques for twitter|[PDF][PDF] The Order of Things. A Study on Topic Modelling of Literary Texts.|1
+[PDF][PDF] An evaluation of topic modelling techniques for twitter|[PDF][PDF] How does the brain solve visual object recognition?|0
+[PDF][PDF] The Order of Things. A Study on Topic Modelling of Literary Texts.|Propaganda identification using topic modelling|1
+[PDF][PDF] The Order of Things. A Study on Topic Modelling of Literary Texts.|A new image representation algorithm inspired by image submodality models, redundancy reduction, and learning in biological vision|0
+Dynamic topic models|Topic modelling for qualitative studies|1
+Dynamic topic models|Sentiment embeddings with applications to sentiment analysis|0
+Scoping review of mindfulness research: A topic modelling approach|[PDF][PDF] Topic Modelling with Word Embeddings.|1
+Scoping review of mindfulness research: A topic modelling approach|Does object recognition work for everyone?|0
+[PDF][PDF] Topic Modelling with Word Embeddings.|Clustop: A clustering-based topic modelling algorithm for twitter using word networks|1
+[PDF][PDF] Topic Modelling with Word Embeddings.|[BOOK][B] Advances in automatic text summarization|0
+Software framework for topic modelling with large corpora|[PDF][PDF] A text mining research based on LDA topic modelling|1
+Software framework for topic modelling with large corpora|Visual object recognition: do we know more now than we did 20 years ago?|0
+Clustop: A clustering-based topic modelling algorithm for twitter using word networks|[PDF][PDF] LDA-based topic modelling in text sentiment classification: An empirical analysis.|1
+Clustop: A clustering-based topic modelling algorithm for twitter using word networks|Polarization vision and its role in biological signaling|0
+Propaganda identification using topic modelling|[PDF][PDF] Studying the history of ideas using topic models|1
+Propaganda identification using topic modelling|Arabic named entity recognition from diverse text types|0
+Visualizing topic models|Topic models|1
+Visualizing topic models|[PDF][PDF] Sentiment analysis and subjectivity.|0
+[PDF][PDF] Topic modelling methodology: its use in information systems and other managerial disciplines|Software framework for topic modelling with large corpora|1
+[PDF][PDF] Topic modelling methodology: its use in information systems and other managerial disciplines|Multiresolution models for object detection|0
+[PDF][PDF] Studying the history of ideas using topic models|[PDF][PDF] Studying the history of ideas using topic models|1
+[PDF][PDF] Studying the history of ideas using topic models|[PDF][PDF] The LRC machine translation system|0

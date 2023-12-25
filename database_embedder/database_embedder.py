@@ -6,12 +6,22 @@ from joblib import dump, load
 import os
 
 class DatabaseEmbedder:
+    """
+    The class for encoding all paper titles
+    """
     def __init__(self, batch_size=2, model=None):
         self.data_dict = {}
-        self.model = SentenceTransformer(model)
-        self.batch_size = batch_size
+        self.model = SentenceTransformer(model) ## define model
+        self.batch_size = batch_size ## batch size when encoding
     
     def run(self, data_dir=None, output_dir=None):
+        """
+        Args: 
+            - data_dir: where is the raw data
+            - output_dir: where to save data
+        Two main steps: encoding all paper titles and indexing with BallTree
+        """
+        ## Encoding all paper titles
         raw_data = pd.read_csv(data_dir)
         titles = raw_data["paper_title"].to_list()
         embeddings = []
@@ -32,8 +42,3 @@ class DatabaseEmbedder:
 if __name__ == '__main__':
     embedder = DatabaseEmbedder(batch_size=2, model="model/")
     embedder.run(data_dir="data/raw_data.csv", output_dir="database_embedder/")
-            # for i, row in raw_data.iterrows():
-            # title = row["Paper Title"]
-            # num_cited = row["Citation"]
-            # authors = row["Author"]
-            # print(i, title, authors, num_cited)
