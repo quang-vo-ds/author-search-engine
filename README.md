@@ -47,7 +47,7 @@ The performance of the app in this demo is highly dependent on the embedding mod
 
 Let's have a closer look to the key components in the script:
 - Base model: [all-MiniLM-L6-v2](https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2)
-- Loss function: Constrative loss. Similar pairs with label 1 are pulled together, so that they are close in vector space. Dissimilar pairs, that are closer than a defined margin, are pushed away in vector space.
+- Loss function: Contrastive loss. Similar pairs with label 1 are pulled together, so that they are close in vector space. Dissimilar pairs, that are closer than a defined margin, are pushed away in vector space.
 - Evaluating score: Accuracy
 - Similarity metric: Manhattan distance
 
