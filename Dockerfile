@@ -1,6 +1,6 @@
-FROM ubuntu:18.04
-RUN apt-get -y update && apt -get install software-properties-common \
-&& add-apt-repository ppa:deadsnakes/ppa && apt install python3.10
+FROM python:3
+
+WORKDIR /usr/src/app
 
 COPY requirements.txt ./requirements.txt
 RUN pip3 install -r requirements.txt 
