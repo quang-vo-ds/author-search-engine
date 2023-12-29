@@ -1,4 +1,4 @@
-FROM public.ecr.aws/lambda/python:3.8
+FROM ubuntu:22.04
 
 COPY requirements.txt ./requirements.txt
 RUN pip install -r requirements.txt 
