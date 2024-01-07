@@ -15,7 +15,7 @@ model = SentenceTransformer(model_dir)
 tree = load(embedding_tree_file)
 
 ## Main function
-def handler(query, topk):
+def handler(query: str, topk: int):
     query_emb = model.encode(query).reshape(1,-1) ## Encode query
     
     ## Find top similar titles to the query
